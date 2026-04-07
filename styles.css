@@ -257,6 +257,28 @@ body {
   margin-top: 0.85rem;
 }
 
+.day-card__footer {
+  margin-top: 0.85rem;
+}
+
+.edit-button {
+  width: 100%;
+  border: 1px solid rgba(30, 42, 33, 0.12);
+  border-radius: 14px;
+  padding: 0.7rem 0.8rem;
+  font: inherit;
+  font-weight: 600;
+  color: var(--accent);
+  background: rgba(255, 255, 255, 0.72);
+  cursor: pointer;
+  transition: background-color 160ms ease, border-color 160ms ease;
+}
+
+.edit-button:hover {
+  background: rgba(255, 255, 255, 0.92);
+  border-color: rgba(29, 107, 82, 0.3);
+}
+
 .detail-row {
   display: grid;
   gap: 0.2rem;
@@ -302,6 +324,113 @@ body {
 .detail-value--owner:empty::before {
   content: "Ingen info";
   color: rgba(81, 97, 87, 0.7);
+}
+
+.edit-dialog {
+  width: min(560px, calc(100% - 1rem));
+  padding: 0;
+  border: 0;
+  border-radius: 24px;
+  background: transparent;
+}
+
+.edit-dialog::backdrop {
+  background: rgba(20, 26, 22, 0.45);
+  backdrop-filter: blur(5px);
+}
+
+.edit-form {
+  display: grid;
+  gap: 1rem;
+  padding: 1.2rem;
+  border: 1px solid var(--surface-outline);
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.96);
+  box-shadow: var(--shadow);
+}
+
+.edit-form__header {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.edit-form__eyebrow,
+.edit-form__title,
+.edit-form__date,
+.form-label,
+.edit-help {
+  margin: 0;
+}
+
+.edit-form__eyebrow {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.edit-form__title {
+  margin-top: 0.3rem;
+  font-size: 1.6rem;
+  line-height: 1.05;
+}
+
+.edit-form__date {
+  margin-top: 0.35rem;
+  color: var(--text-soft);
+}
+
+.icon-button {
+  border: 0;
+  border-radius: 999px;
+  width: 2.2rem;
+  height: 2.2rem;
+  font: inherit;
+  font-size: 1.5rem;
+  line-height: 1;
+  color: var(--accent);
+  background: rgba(29, 107, 82, 0.1);
+  cursor: pointer;
+}
+
+.form-field {
+  display: grid;
+  gap: 0.4rem;
+}
+
+.form-label {
+  font-size: 0.86rem;
+  font-weight: 700;
+  color: var(--text-soft);
+}
+
+.form-control {
+  width: 100%;
+  border: 1px solid rgba(30, 42, 33, 0.14);
+  border-radius: 14px;
+  padding: 0.8rem 0.9rem;
+  font: inherit;
+  color: var(--text-main);
+  background: #fff;
+}
+
+.form-control--textarea {
+  resize: vertical;
+  min-height: 7rem;
+}
+
+.edit-help {
+  color: var(--text-soft);
+  font-size: 0.95rem;
+}
+
+.edit-actions {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: flex-end;
 }
 
 @media (max-width: 1024px) {
@@ -405,5 +534,14 @@ body {
 
   .detail-value--owner {
     font-size: 1.1rem;
+  }
+
+  .edit-form {
+    padding: 1rem;
+  }
+
+  .edit-actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }

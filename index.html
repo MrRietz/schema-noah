@@ -15,7 +15,7 @@
       <p class="eyebrow">Noahs schema</p>
       <h1>Veckovy</h1>
       <p class="intro">
-        Se Noahs schema vecka för vecka. Appen visar vem Noah är hos varje dag, tider för hämtning eller lämning, anteckningar och markerar dagens datum tydligt.
+        Se Noahs schema vecka för vecka. Appen visar vem Noah är hos varje dag, tider för hämtning eller lämning, noteringar och markerar dagens datum tydligt.
       </p>
     </header>
 
@@ -73,9 +73,61 @@
           <span class="detail-value detail-value--notes"></span>
         </div>
       </div>
+
+      <div class="day-card__footer">
+        <button class="edit-button" type="button">Redigera</button>
+      </div>
     </article>
   </template>
 
+  <dialog id="edit-dialog" class="edit-dialog">
+    <form id="edit-form" class="edit-form" method="dialog">
+      <div class="edit-form__header">
+        <div>
+          <p class="edit-form__eyebrow">Redigera dag</p>
+          <h2 id="edit-title" class="edit-form__title">Dag</h2>
+          <p id="edit-date" class="edit-form__date"></p>
+        </div>
+        <button id="edit-close" class="icon-button" type="button" aria-label="Stäng">×</button>
+      </div>
+
+      <input id="edit-datum" name="datum" type="hidden">
+
+      <label class="form-field">
+        <span class="form-label">Hos</span>
+        <select id="edit-hos" name="hos" class="form-control">
+          <option value="">Ingen info</option>
+          <option value="Mamma">Mamma</option>
+          <option value="Pappa">Pappa</option>
+        </select>
+      </label>
+
+      <label class="form-field">
+        <span class="form-label">Tid</span>
+        <input id="edit-tid" name="hamtningsLamning" class="form-control" type="text" placeholder="Till exempel 07:30-16:30">
+      </label>
+
+      <label class="form-field">
+        <span class="form-label">Notering</span>
+        <textarea id="edit-notering" name="anteckningar" class="form-control form-control--textarea" rows="4" placeholder="Skriv en notering"></textarea>
+      </label>
+
+      <p class="edit-help">
+        Spara skickar ändringen direkt till Google Sheet via Apps Script.
+      </p>
+
+      <div class="edit-actions">
+        <button id="edit-cancel" class="nav-button nav-button--secondary" type="button">Avbryt</button>
+        <button id="edit-save" class="nav-button" type="submit">Spara</button>
+      </div>
+    </form>
+  </dialog>
+
+  <script>
+    window.CALENDAR_CONFIG = {
+      editApiUrl: ""
+    };
+  </script>
   <script src="./script.js" defer></script>
 </body>
 </html>
