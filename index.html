@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Noahs Veckokalender</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero">
+      <p class="eyebrow">Noahs schema</p>
+      <h1>Veckovy</h1>
+      <p class="intro">
+        Se Noahs schema vecka för vecka. Appen visar vem Noah är hos varje dag, tider för hämtning eller lämning, anteckningar och markerar dagens datum tydligt.
+      </p>
+    </header>
+
+    <main class="calendar-app">
+      <section class="controls" aria-label="Veckonavigering">
+        <button id="prev-week" class="nav-button" type="button">Föregående vecka</button>
+        <div class="week-summary">
+          <p id="week-label" class="week-label">Laddar vecka...</p>
+          <p id="week-range" class="week-range"></p>
+        </div>
+        <div class="control-actions">
+          <button id="today-week" class="nav-button nav-button--secondary" type="button">Till idag</button>
+          <button id="next-week" class="nav-button" type="button">Nästa vecka</button>
+        </div>
+      </section>
+
+      <section class="legend" aria-label="Förklaring">
+        <span class="legend-item">
+          <span class="legend-swatch legend-swatch--today"></span>
+          Idag
+        </span>
+        <span class="legend-item">
+          <span class="legend-swatch legend-swatch--mamma"></span>
+          Hos mamma
+        </span>
+        <span class="legend-item">
+          <span class="legend-swatch legend-swatch--pappa"></span>
+          Hos pappa
+        </span>
+      </section>
+
+      <section id="status" class="status" role="status" aria-live="polite"></section>
+      <section id="week-grid" class="week-grid" aria-label="Veckans dagar"></section>
+    </main>
+  </div>
+
+  <template id="day-card-template">
+    <article class="day-card">
+      <div class="day-card__header">
+        <p class="day-name"></p>
+        <p class="day-date"></p>
+      </div>
+
+      <div class="day-card__body">
+        <div class="detail-row">
+          <span class="detail-label">Hos</span>
+          <span class="detail-value detail-value--owner"></span>
+        </div>
+        <div class="detail-row">
+          <span class="detail-label">Tid</span>
+          <span class="detail-value detail-value--timing"></span>
+        </div>
+        <div class="detail-row detail-row--notes">
+          <span class="detail-label">Notering</span>
+          <span class="detail-value detail-value--notes"></span>
+        </div>
+      </div>
+    </article>
+  </template>
+
+  <script src="./script.js" defer></script>
+</body>
+</html>
