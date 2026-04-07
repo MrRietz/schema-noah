@@ -1,38 +1,81 @@
 <!doctype html>
 <html lang="sv">
+
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+  >
   <title>Noahs Veckokalender</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./styles.css">
+  <link
+    rel="preconnect"
+    href="https://fonts.googleapis.com"
+  >
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  >
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+  <link
+    rel="stylesheet"
+    href="./styles.css"
+  >
 </head>
+
 <body>
   <div class="page-shell">
     <header class="hero">
       <p class="eyebrow">Noahs schema</p>
       <h1>Veckovy</h1>
       <p class="intro">
-        Se Noahs schema vecka för vecka. Appen visar vem Noah är hos varje dag, tider för hämtning eller lämning, noteringar och markerar dagens datum tydligt.
+        Se Noahs schema vecka för vecka. Appen visar vem Noah är hos varje dag, tider för hämtning eller lämning,
+        noteringar och markerar dagens datum tydligt.
       </p>
     </header>
 
     <main class="calendar-app">
-      <section class="controls" aria-label="Veckonavigering">
+      <section
+        class="controls"
+        aria-label="Veckonavigering"
+      >
         <div class="week-summary">
-          <p id="week-label" class="week-label">Laddar vecka...</p>
-          <p id="week-range" class="week-range"></p>
+          <p
+            id="week-label"
+            class="week-label"
+          >Laddar vecka...</p>
+          <p
+            id="week-range"
+            class="week-range"
+          ></p>
         </div>
         <div class="control-actions">
-          <button id="prev-week" class="nav-button nav-button--secondary" type="button">Föregående</button>
-          <button id="today-week" class="nav-button nav-button--secondary" type="button">Idag</button>
-          <button id="next-week" class="nav-button nav-button--secondary" type="button">Nästa</button>
+          <button
+            id="prev-week"
+            class="nav-button nav-button--secondary"
+            type="button"
+          >Föregående</button>
+          <button
+            id="today-week"
+            class="nav-button nav-button--secondary"
+            type="button"
+          >Idag</button>
+          <button
+            id="next-week"
+            class="nav-button nav-button--secondary"
+            type="button"
+          >Nästa</button>
         </div>
       </section>
 
-      <section class="legend" aria-label="Förklaring">
+      <section
+        class="legend"
+        aria-label="Förklaring"
+      >
         <span class="legend-item">
           <span class="legend-swatch legend-swatch--today"></span>
           Idag
@@ -47,8 +90,17 @@
         </span>
       </section>
 
-      <section id="status" class="status" role="status" aria-live="polite"></section>
-      <section id="week-grid" class="week-grid" aria-label="Veckans dagar"></section>
+      <section
+        id="status"
+        class="status"
+        role="status"
+        aria-live="polite"
+      ></section>
+      <section
+        id="week-grid"
+        class="week-grid"
+        aria-label="Veckans dagar"
+      ></section>
     </main>
   </div>
 
@@ -75,27 +127,56 @@
       </div>
 
       <div class="day-card__footer">
-        <button class="edit-button" type="button">Redigera</button>
+        <button
+          class="edit-button"
+          type="button"
+        >Redigera</button>
       </div>
     </article>
   </template>
 
-  <dialog id="edit-dialog" class="edit-dialog">
-    <form id="edit-form" class="edit-form" method="dialog">
+  <dialog
+    id="edit-dialog"
+    class="edit-dialog"
+  >
+    <form
+      id="edit-form"
+      class="edit-form"
+      method="dialog"
+    >
       <div class="edit-form__header">
         <div>
           <p class="edit-form__eyebrow">Redigera dag</p>
-          <h2 id="edit-title" class="edit-form__title">Dag</h2>
-          <p id="edit-date" class="edit-form__date"></p>
+          <h2
+            id="edit-title"
+            class="edit-form__title"
+          >Dag</h2>
+          <p
+            id="edit-date"
+            class="edit-form__date"
+          ></p>
         </div>
-        <button id="edit-close" class="icon-button" type="button" aria-label="Stäng">×</button>
+        <button
+          id="edit-close"
+          class="icon-button"
+          type="button"
+          aria-label="Stäng"
+        >×</button>
       </div>
 
-      <input id="edit-datum" name="datum" type="hidden">
+      <input
+        id="edit-datum"
+        name="datum"
+        type="hidden"
+      >
 
       <label class="form-field">
         <span class="form-label">Hos</span>
-        <select id="edit-hos" name="hos" class="form-control">
+        <select
+          id="edit-hos"
+          name="hos"
+          class="form-control"
+        >
           <option value="">Ingen info</option>
           <option value="Mamma">Mamma</option>
           <option value="Pappa">Pappa</option>
@@ -104,12 +185,24 @@
 
       <label class="form-field">
         <span class="form-label">Tid</span>
-        <input id="edit-tid" name="hamtningsLamning" class="form-control" type="text" placeholder="Till exempel 07:30-16:30">
+        <input
+          id="edit-tid"
+          name="hamtningsLamning"
+          class="form-control"
+          type="text"
+          placeholder="Till exempel 07:30-16:30"
+        >
       </label>
 
       <label class="form-field">
         <span class="form-label">Notering</span>
-        <textarea id="edit-notering" name="anteckningar" class="form-control form-control--textarea" rows="4" placeholder="Skriv en notering"></textarea>
+        <textarea
+          id="edit-notering"
+          name="anteckningar"
+          class="form-control form-control--textarea"
+          rows="4"
+          placeholder="Skriv en notering"
+        ></textarea>
       </label>
 
       <p class="edit-help">
@@ -117,17 +210,29 @@
       </p>
 
       <div class="edit-actions">
-        <button id="edit-cancel" class="nav-button nav-button--secondary" type="button">Avbryt</button>
-        <button id="edit-save" class="nav-button" type="submit">Spara</button>
+        <button
+          id="edit-cancel"
+          class="nav-button nav-button--secondary"
+          type="button"
+        >Avbryt</button>
+        <button
+          id="edit-save"
+          class="nav-button"
+          type="submit"
+        >Spara</button>
       </div>
     </form>
   </dialog>
 
   <script>
     window.CALENDAR_CONFIG = {
-      editApiUrl: ""
+      editApiUrl: "https://script.google.com/macros/s/AKfycbwFm_7O3IifMQFylpctesJoBQd6AyyoPTnhDLNEQ_8oPbO661qgTUgGXLK8kBmmB9HD/exec"
     };
   </script>
-  <script src="./script.js" defer></script>
+  <script
+    src="./script.js"
+    defer
+  ></script>
 </body>
+
 </html>
