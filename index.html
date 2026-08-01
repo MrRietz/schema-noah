@@ -31,7 +31,7 @@
   <div class="page-shell">
     <header class="hero">
       <p class="eyebrow">Noahs schema</p>
-      <h1>Veckovy</h1>
+      <h1 id="hero-title">Veckovy</h1>
       <p class="intro">
         Se Noahs schema vecka för vecka. Appen visar vem Noah är hos varje dag, tider för hämtning eller lämning,
         noteringar och markerar dagens datum tydligt.
@@ -39,6 +39,27 @@
     </header>
 
     <main class="calendar-app">
+      <div
+        class="view-switch"
+        role="tablist"
+        aria-label="Välj vy"
+      >
+        <button
+          id="view-week"
+          class="view-switch__button is-active"
+          type="button"
+          role="tab"
+          aria-selected="true"
+        >Vecka</button>
+        <button
+          id="view-month"
+          class="view-switch__button"
+          type="button"
+          role="tab"
+          aria-selected="false"
+        >Månad</button>
+      </div>
+
       <section
         class="controls"
         aria-label="Veckonavigering"
@@ -101,6 +122,29 @@
         class="week-grid"
         aria-label="Veckans dagar"
       ></section>
+
+      <section
+        class="month-view"
+        aria-label="Månadsvy"
+        hidden
+      >
+        <div
+          class="month-weekdays"
+          aria-hidden="true"
+        >
+          <span>Mån</span>
+          <span>Tis</span>
+          <span>Ons</span>
+          <span>Tor</span>
+          <span>Fre</span>
+          <span>Lör</span>
+          <span>Sön</span>
+        </div>
+        <div
+          id="month-grid"
+          class="month-grid"
+        ></div>
+      </section>
     </main>
   </div>
 
@@ -133,6 +177,21 @@
         >Redigera</button>
       </div>
     </article>
+  </template>
+
+  <template id="month-cell-template">
+    <button
+      class="month-cell"
+      type="button"
+    >
+      <span class="month-cell__date"></span>
+      <span class="month-cell__owner"></span>
+      <span class="month-cell__timing"></span>
+      <span
+        class="month-cell__note-dot"
+        aria-hidden="true"
+      ></span>
+    </button>
   </template>
 
   <dialog

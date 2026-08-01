@@ -14,15 +14,26 @@ const RANGE_DATE = new Intl.DateTimeFormat("sv-SE", {
   month: "long",
 });
 
+const MONTH_TITLE = new Intl.DateTimeFormat("sv-SE", {
+  month: "long",
+  year: "numeric",
+});
+
 const els = {
+  heroTitle: document.querySelector("#hero-title"),
+  viewWeek: document.querySelector("#view-week"),
+  viewMonth: document.querySelector("#view-month"),
   prevWeek: document.querySelector("#prev-week"),
   nextWeek: document.querySelector("#next-week"),
   todayWeek: document.querySelector("#today-week"),
   weekLabel: document.querySelector("#week-label"),
   weekRange: document.querySelector("#week-range"),
   weekGrid: document.querySelector("#week-grid"),
+  monthView: document.querySelector(".month-view"),
+  monthGrid: document.querySelector("#month-grid"),
   status: document.querySelector("#status"),
   template: document.querySelector("#day-card-template"),
+  monthCellTemplate: document.querySelector("#month-cell-template"),
   editDialog: document.querySelector("#edit-dialog"),
   editForm: document.querySelector("#edit-form"),
   editTitle: document.querySelector("#edit-title"),
@@ -37,8 +48,11 @@ const els = {
 };
 
 let allEntries = [];
+let entriesByDate = new Map();
 let weeks = [];
 let currentWeekIndex = 0;
+let currentView = "week";
+let currentMonth = null; // { year, month } där month är 0-indexerad
 
 init().catch((error) => {
   setStatus("Kunde inte läsa kalenderdatan.");
@@ -49,11 +63,24 @@ async function init() {
   setStatus("Läser kalenderdata...");
 
   allEntries = await getNormalizedEntries();
+  entriesByDate = indexByDate(allEntries);
   weeks = groupWeeks(allEntries);
   currentWeekIndex = findInitialWeekIndex(weeks);
+  currentMonth = findInitialMonth();
 
   bindEvents();
   render();
+}
+
+function indexByDate(entries) {
+  return new Map(entries.map((entry) => [entry.datum, entry]));
+}
+
+function findInitialMonth() {
+  const todayIso = getTodayIso();
+  const anchor = allEntries.find((entry) => entry.datum >= todayIso) || allEntries.at(-1);
+  const date = anchor ? anchor.dateObject : new Date();
+  return { year: date.getFullYear(), month: date.getMonth() };
 }
 
 async function getNormalizedEntries() {
@@ -111,18 +138,30 @@ async function fetchLiveCsv() {
 }
 
 function bindEvents() {
+  els.viewWeek.addEventListener("click", () => setView("week"));
+  els.viewMonth.addEventListener("click", () => setView("month"));
+
   els.prevWeek.addEventListener("click", () => {
-    currentWeekIndex -= 1;
+    if (currentView === "month") {
+      stepMonth(-1);
+    } else {
+      currentWeekIndex -= 1;
+    }
     render();
   });
 
   els.nextWeek.addEventListener("click", () => {
-    currentWeekIndex += 1;
+    if (currentView === "month") {
+      stepMonth(1);
+    } else {
+      currentWeekIndex += 1;
+    }
     render();
   });
 
   els.todayWeek.addEventListener("click", () => {
     currentWeekIndex = findInitialWeekIndex(weeks);
+    currentMonth = findInitialMonth();
     render();
   });
 
@@ -172,7 +211,40 @@ function findInitialWeekIndex(groupedWeeks) {
   return firstFutureWeek >= 0 ? firstFutureWeek : Math.max(groupedWeeks.length - 1, 0);
 }
 
+function setView(view) {
+  if (view === currentView) {
+    return;
+  }
+
+  currentView = view;
+
+  const isMonth = view === "month";
+  els.heroTitle.textContent = isMonth ? "Månadsvy" : "Veckovy";
+  els.viewWeek.classList.toggle("is-active", !isMonth);
+  els.viewMonth.classList.toggle("is-active", isMonth);
+  els.viewWeek.setAttribute("aria-selected", String(!isMonth));
+  els.viewMonth.setAttribute("aria-selected", String(isMonth));
+  els.weekGrid.hidden = isMonth;
+  els.monthView.hidden = !isMonth;
+
+  render();
+}
+
+function stepMonth(direction) {
+  const next = new Date(currentMonth.year, currentMonth.month + direction, 1);
+  currentMonth = { year: next.getFullYear(), month: next.getMonth() };
+}
+
 function render() {
+  if (currentView === "month") {
+    renderMonth();
+    return;
+  }
+
+  renderWeek();
+}
+
+function renderWeek() {
   const week = weeks[currentWeekIndex];
   if (!week) {
     setStatus("Ingen kalenderdata hittades.");
@@ -198,6 +270,86 @@ function render() {
 
   const cards = week.entries.map((entry) => createDayCard(entry, todayIso));
   els.weekGrid.replaceChildren(...cards);
+}
+
+function renderMonth() {
+  const { year, month } = currentMonth;
+  const todayIso = getTodayIso();
+
+  els.weekLabel.textContent = capitalize(MONTH_TITLE.format(new Date(year, month, 1)));
+  els.weekRange.textContent = "";
+
+  // Måndag = 0. Antal tomma celler före den första i månaden.
+  const firstWeekday = (new Date(year, month, 1).getDay() + 6) % 7;
+  const daysInMonth = new Date(year, month + 1, 0).getDate();
+
+  // Begränsa navigeringen till det spann vi har data för.
+  const firstIso = allEntries[0]?.datum ?? "";
+  const lastIso = allEntries.at(-1)?.datum ?? "";
+  els.prevWeek.disabled = firstIso ? isoForDay(year, month, 1) <= firstIso : true;
+  els.nextWeek.disabled = lastIso ? isoForDay(year, month, daysInMonth) >= lastIso : true;
+
+  const cells = [];
+
+  for (let index = 0; index < firstWeekday; index += 1) {
+    const blank = document.createElement("span");
+    blank.className = "month-cell month-cell--empty";
+    blank.setAttribute("aria-hidden", "true");
+    cells.push(blank);
+  }
+
+  let hasData = false;
+  for (let day = 1; day <= daysInMonth; day += 1) {
+    const iso = isoForDay(year, month, day);
+    const entry = entriesByDate.get(iso);
+    if (entry) {
+      hasData = true;
+    }
+    cells.push(createMonthCell(day, iso, entry, todayIso));
+  }
+
+  els.monthGrid.replaceChildren(...cells);
+  setStatus(hasData ? "Månadsöversikt. Klicka på en dag för att redigera." : "Ingen kalenderdata för den här månaden.");
+}
+
+function createMonthCell(day, iso, entry, todayIso) {
+  const fragment = els.monthCellTemplate.content.cloneNode(true);
+  const cell = fragment.querySelector(".month-cell");
+  const owner = normalizeOwner(entry?.hos);
+
+  cell.querySelector(".month-cell__date").textContent = String(day);
+  cell.querySelector(".month-cell__owner").textContent = entry?.hos || "";
+  cell.querySelector(".month-cell__timing").textContent = entry?.hamtningsLamning || "";
+
+  if (owner === "mamma") {
+    cell.classList.add("month-cell--mamma");
+  }
+
+  if (owner === "pappa") {
+    cell.classList.add("month-cell--pappa");
+  }
+
+  if (iso === todayIso) {
+    cell.classList.add("month-cell--today");
+  }
+
+  if (entry?.anteckningar) {
+    cell.classList.add("month-cell--has-note");
+    cell.title = entry.anteckningar;
+  }
+
+  if (entry) {
+    cell.setAttribute("aria-label", `${SWEDISH_DATE.format(entry.dateObject)}. Redigera.`);
+    cell.addEventListener("click", () => openEditDialog(entry));
+  } else {
+    cell.disabled = true;
+  }
+
+  return fragment;
+}
+
+function isoForDay(year, month, day) {
+  return `${year}-${String(month + 1).padStart(2, "0")}-${String(day).padStart(2, "0")}`;
 }
 
 function createDayCard(entry, todayIso) {
@@ -303,6 +455,7 @@ async function postUpdate(payload) {
 async function refreshFromLiveSource() {
   try {
     allEntries = await getNormalizedEntries();
+    entriesByDate = indexByDate(allEntries);
     weeks = groupWeeks(allEntries);
     currentWeekIndex = Math.min(currentWeekIndex, Math.max(weeks.length - 1, 0));
     render();

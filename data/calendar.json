@@ -1,1802 +1,2783 @@
-﻿[
-    {
-        "datum":  "2026-02-26",
-        "ar":  2026,
-        "vecka":  9,
-        "veckodag":  "Torsdag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "09:00-16:20",
-        "anteckningar":  "Mamma jobbar till 18:30 Pappa hämtar"
-    },
-    {
-        "datum":  "2026-02-27",
-        "ar":  2026,
-        "vecka":  9,
-        "veckodag":  "Fredag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "Ledig",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-02-28",
-        "ar":  2026,
-        "vecka":  9,
-        "veckodag":  "Lördag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "Helg",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-03-01",
-        "ar":  2026,
-        "vecka":  9,
-        "veckodag":  "Söndag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "Helg",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-03-02",
-        "ar":  2026,
-        "vecka":  10,
-        "veckodag":  "Måndag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "Ledig",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-03-03",
-        "ar":  2026,
-        "vecka":  10,
-        "veckodag":  "Tisdag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "06:30-14:30 ?",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-03-04",
-        "ar":  2026,
-        "vecka":  10,
-        "veckodag":  "Onsdag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "08:30-16:30",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-03-05",
-        "ar":  2026,
-        "vecka":  10,
-        "veckodag":  "Torsdag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "07:20-14:30",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-03-06",
-        "ar":  2026,
-        "vecka":  10,
-        "veckodag":  "Fredag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "08:30-16:20",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-03-07",
-        "ar":  2026,
-        "vecka":  10,
-        "veckodag":  "Lördag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "Helg",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-03-08",
-        "ar":  2026,
-        "vecka":  10,
-        "veckodag":  "Söndag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "Helg",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-03-09",
-        "ar":  2026,
-        "vecka":  11,
-        "veckodag":  "Måndag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "07:30-16:30",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-03-10",
-        "ar":  2026,
-        "vecka":  11,
-        "veckodag":  "Tisdag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "Ledig",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-03-11",
-        "ar":  2026,
-        "vecka":  11,
-        "veckodag":  "Onsdag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "07:30-16:30",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-03-12",
-        "ar":  2026,
-        "vecka":  11,
-        "veckodag":  "Torsdag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "07:20-14:45",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-03-13",
-        "ar":  2026,
-        "vecka":  11,
-        "veckodag":  "Fredag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "07:30-16:15",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-03-14",
-        "ar":  2026,
-        "vecka":  11,
-        "veckodag":  "Lördag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "Helg",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-03-15",
-        "ar":  2026,
-        "vecka":  11,
-        "veckodag":  "Söndag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "Helg",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-03-16",
-        "ar":  2026,
-        "vecka":  12,
-        "veckodag":  "Måndag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "07:20-16:30",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-03-17",
-        "ar":  2026,
-        "vecka":  12,
-        "veckodag":  "Tisdag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "Ledig",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-03-18",
-        "ar":  2026,
-        "vecka":  12,
-        "veckodag":  "Onsdag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "06:30-14:45",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-03-19",
-        "ar":  2026,
-        "vecka":  12,
-        "veckodag":  "Torsdag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "07:30-16:20",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-03-20",
-        "ar":  2026,
-        "vecka":  12,
-        "veckodag":  "Fredag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "07:20-16:20",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-03-21",
-        "ar":  2026,
-        "vecka":  12,
-        "veckodag":  "Lördag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "Helg",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-03-22",
-        "ar":  2026,
-        "vecka":  12,
-        "veckodag":  "Söndag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "Helg",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-03-23",
-        "ar":  2026,
-        "vecka":  13,
-        "veckodag":  "Måndag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "07:30-16:30",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-03-24",
-        "ar":  2026,
-        "vecka":  13,
-        "veckodag":  "Tisdag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "07:20-16:30",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-03-25",
-        "ar":  2026,
-        "vecka":  13,
-        "veckodag":  "Onsdag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "07:20-14:45",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-03-26",
-        "ar":  2026,
-        "vecka":  13,
-        "veckodag":  "Torsdag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "09:00-16:20",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-03-27",
-        "ar":  2026,
-        "vecka":  13,
-        "veckodag":  "Fredag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "Ledig",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-03-28",
-        "ar":  2026,
-        "vecka":  13,
-        "veckodag":  "Lördag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "Helg",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-03-29",
-        "ar":  2026,
-        "vecka":  13,
-        "veckodag":  "Söndag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "Helg",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-03-30",
-        "ar":  2026,
-        "vecka":  14,
-        "veckodag":  "Måndag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "Ledig",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-03-31",
-        "ar":  2026,
-        "vecka":  14,
-        "veckodag":  "Tisdag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "06:30-14:30 ?",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-04-01",
-        "ar":  2026,
-        "vecka":  14,
-        "veckodag":  "Onsdag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "08:30-16:30",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-04-02",
-        "ar":  2026,
-        "vecka":  14,
-        "veckodag":  "Torsdag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "07:20-14:30",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-04-03",
-        "ar":  2026,
-        "vecka":  14,
-        "veckodag":  "Fredag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "röd dag",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-04-04",
-        "ar":  2026,
-        "vecka":  14,
-        "veckodag":  "Lördag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "Helg",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-04-05",
-        "ar":  2026,
-        "vecka":  14,
-        "veckodag":  "Söndag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "Helg",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-04-06",
-        "ar":  2026,
-        "vecka":  15,
-        "veckodag":  "Måndag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "07:30-16:30",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-04-07",
-        "ar":  2026,
-        "vecka":  15,
-        "veckodag":  "Tisdag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "Ledig",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-04-08",
-        "ar":  2026,
-        "vecka":  15,
-        "veckodag":  "Onsdag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "07:30-16:30",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-04-09",
-        "ar":  2026,
-        "vecka":  15,
-        "veckodag":  "Torsdag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "07:20-14:45",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-04-10",
-        "ar":  2026,
-        "vecka":  15,
-        "veckodag":  "Fredag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "Pappaledig",
-        "anteckningar":  "Åka till Farfar"
-    },
-    {
-        "datum":  "2026-04-11",
-        "ar":  2026,
-        "vecka":  15,
-        "veckodag":  "Lördag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "Helg",
-        "anteckningar":  "Åka till Farfar"
-    },
-    {
-        "datum":  "2026-04-12",
-        "ar":  2026,
-        "vecka":  15,
-        "veckodag":  "Söndag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "Helg",
-        "anteckningar":  "Åka till Farfar"
-    },
-    {
-        "datum":  "2026-04-13",
-        "ar":  2026,
-        "vecka":  16,
-        "veckodag":  "Måndag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "07:20-16:30",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-04-14",
-        "ar":  2026,
-        "vecka":  16,
-        "veckodag":  "Tisdag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "Ledig",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-04-15",
-        "ar":  2026,
-        "vecka":  16,
-        "veckodag":  "Onsdag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "06:30-14:45",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-04-16",
-        "ar":  2026,
-        "vecka":  16,
-        "veckodag":  "Torsdag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "07:30-16:20",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-04-17",
-        "ar":  2026,
-        "vecka":  16,
-        "veckodag":  "Fredag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "07:20-14:30",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-04-18",
-        "ar":  2026,
-        "vecka":  16,
-        "veckodag":  "Lördag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "Helg",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-04-19",
-        "ar":  2026,
-        "vecka":  16,
-        "veckodag":  "Söndag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "Helg",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-04-20",
-        "ar":  2026,
-        "vecka":  17,
-        "veckodag":  "Måndag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "07:30-16:30",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-04-21",
-        "ar":  2026,
-        "vecka":  17,
-        "veckodag":  "Tisdag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "07:20-16:30",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-04-22",
-        "ar":  2026,
-        "vecka":  17,
-        "veckodag":  "Onsdag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "07:20-14:45",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-04-23",
-        "ar":  2026,
-        "vecka":  17,
-        "veckodag":  "Torsdag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "09:00-16:20",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-04-24",
-        "ar":  2026,
-        "vecka":  17,
-        "veckodag":  "Fredag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "Ledig",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-04-25",
-        "ar":  2026,
-        "vecka":  17,
-        "veckodag":  "Lördag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "Helg",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-04-26",
-        "ar":  2026,
-        "vecka":  17,
-        "veckodag":  "Söndag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "Helg",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-04-27",
-        "ar":  2026,
-        "vecka":  18,
-        "veckodag":  "Måndag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "Ledig",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-04-28",
-        "ar":  2026,
-        "vecka":  18,
-        "veckodag":  "Tisdag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "06:30-14:30 ?",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-04-29",
-        "ar":  2026,
-        "vecka":  18,
-        "veckodag":  "Onsdag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "08:30-16:30",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-04-30",
-        "ar":  2026,
-        "vecka":  18,
-        "veckodag":  "Torsdag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "07:20-14:30",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-05-01",
-        "ar":  2026,
-        "vecka":  18,
-        "veckodag":  "Fredag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "08:30-16:20",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-05-02",
-        "ar":  2026,
-        "vecka":  18,
-        "veckodag":  "Lördag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "Helg",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-05-03",
-        "ar":  2026,
-        "vecka":  18,
-        "veckodag":  "Söndag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "Helg",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-05-04",
-        "ar":  2026,
-        "vecka":  19,
-        "veckodag":  "Måndag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "07:30-16:30",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-05-05",
-        "ar":  2026,
-        "vecka":  19,
-        "veckodag":  "Tisdag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "Ledig",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-05-06",
-        "ar":  2026,
-        "vecka":  19,
-        "veckodag":  "Onsdag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "07:30-16:30",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-05-07",
-        "ar":  2026,
-        "vecka":  19,
-        "veckodag":  "Torsdag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "07:20-14:45",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-05-08",
-        "ar":  2026,
-        "vecka":  19,
-        "veckodag":  "Fredag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "07:30-16:15",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-05-09",
-        "ar":  2026,
-        "vecka":  19,
-        "veckodag":  "Lördag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "Helg",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-05-10",
-        "ar":  2026,
-        "vecka":  19,
-        "veckodag":  "Söndag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "Helg",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-05-11",
-        "ar":  2026,
-        "vecka":  20,
-        "veckodag":  "Måndag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "07:20-16:30",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-05-12",
-        "ar":  2026,
-        "vecka":  20,
-        "veckodag":  "Tisdag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "Ledig",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-05-13",
-        "ar":  2026,
-        "vecka":  20,
-        "veckodag":  "Onsdag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "06:30-14:45",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-05-14",
-        "ar":  2026,
-        "vecka":  20,
-        "veckodag":  "Torsdag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "Röd dag",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-05-15",
-        "ar":  2026,
-        "vecka":  20,
-        "veckodag":  "Fredag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "pappa ledig",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-05-16",
-        "ar":  2026,
-        "vecka":  20,
-        "veckodag":  "Lördag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "Helg",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-05-17",
-        "ar":  2026,
-        "vecka":  20,
-        "veckodag":  "Söndag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "Helg",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-05-18",
-        "ar":  2026,
-        "vecka":  21,
-        "veckodag":  "Måndag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "07:30-16:30",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-05-19",
-        "ar":  2026,
-        "vecka":  21,
-        "veckodag":  "Tisdag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "07:20-16:30",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-05-20",
-        "ar":  2026,
-        "vecka":  21,
-        "veckodag":  "Onsdag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "07:20-14:45",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-05-21",
-        "ar":  2026,
-        "vecka":  21,
-        "veckodag":  "Torsdag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "09:00-16:20",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-05-22",
-        "ar":  2026,
-        "vecka":  21,
-        "veckodag":  "Fredag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "Ledig",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-05-23",
-        "ar":  2026,
-        "vecka":  21,
-        "veckodag":  "Lördag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "Helg",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-05-24",
-        "ar":  2026,
-        "vecka":  21,
-        "veckodag":  "Söndag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "Helg",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-05-25",
-        "ar":  2026,
-        "vecka":  22,
-        "veckodag":  "Måndag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "Ledig",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-05-26",
-        "ar":  2026,
-        "vecka":  22,
-        "veckodag":  "Tisdag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "06:30-14:30 ?",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-05-27",
-        "ar":  2026,
-        "vecka":  22,
-        "veckodag":  "Onsdag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "08:30-16:30",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-05-28",
-        "ar":  2026,
-        "vecka":  22,
-        "veckodag":  "Torsdag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "07:20-14:30",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-05-29",
-        "ar":  2026,
-        "vecka":  22,
-        "veckodag":  "Fredag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "08:30-16:20",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-05-30",
-        "ar":  2026,
-        "vecka":  22,
-        "veckodag":  "Lördag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "Helg",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-05-31",
-        "ar":  2026,
-        "vecka":  22,
-        "veckodag":  "Söndag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "Helg",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-06-01",
-        "ar":  2026,
-        "vecka":  23,
-        "veckodag":  "Måndag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "07:30-16:30",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-06-02",
-        "ar":  2026,
-        "vecka":  23,
-        "veckodag":  "Tisdag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "Ledig",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-06-03",
-        "ar":  2026,
-        "vecka":  23,
-        "veckodag":  "Onsdag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "07:30-16:30",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-06-04",
-        "ar":  2026,
-        "vecka":  23,
-        "veckodag":  "Torsdag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "07:20-14:45",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-06-05",
-        "ar":  2026,
-        "vecka":  23,
-        "veckodag":  "Fredag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "Pappa ledig åker till gbg med farmor",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-06-06",
-        "ar":  2026,
-        "vecka":  23,
-        "veckodag":  "Lördag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "Pappa ledig åker till gbg med farmor",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-06-07",
-        "ar":  2026,
-        "vecka":  23,
-        "veckodag":  "Söndag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "Pappa ledig åker till gbg med farmor",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-06-08",
-        "ar":  2026,
-        "vecka":  24,
-        "veckodag":  "Måndag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "07:20-16:30",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-06-09",
-        "ar":  2026,
-        "vecka":  24,
-        "veckodag":  "Tisdag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "Ledig",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-06-10",
-        "ar":  2026,
-        "vecka":  24,
-        "veckodag":  "Onsdag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "06:30-14:45",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-06-11",
-        "ar":  2026,
-        "vecka":  24,
-        "veckodag":  "Torsdag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "07:30-16:20",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-06-12",
-        "ar":  2026,
-        "vecka":  24,
-        "veckodag":  "Fredag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "07:20-14:30",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-06-13",
-        "ar":  2026,
-        "vecka":  24,
-        "veckodag":  "Lördag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "Helg",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-06-14",
-        "ar":  2026,
-        "vecka":  24,
-        "veckodag":  "Söndag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "Helg",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-06-15",
-        "ar":  2026,
-        "vecka":  25,
-        "veckodag":  "Måndag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "07:30-16:30",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-06-16",
-        "ar":  2026,
-        "vecka":  25,
-        "veckodag":  "Tisdag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "07:20-16:30",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-06-17",
-        "ar":  2026,
-        "vecka":  25,
-        "veckodag":  "Onsdag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "07:20-14:45",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-06-18",
-        "ar":  2026,
-        "vecka":  25,
-        "veckodag":  "Torsdag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "09:00-16:20",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-06-19",
-        "ar":  2026,
-        "vecka":  25,
-        "veckodag":  "Fredag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "Ledig",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-06-20",
-        "ar":  2026,
-        "vecka":  25,
-        "veckodag":  "Lördag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "Helg",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-06-21",
-        "ar":  2026,
-        "vecka":  25,
-        "veckodag":  "Söndag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "Helg",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-06-22",
-        "ar":  2026,
-        "vecka":  26,
-        "veckodag":  "Måndag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-06-23",
-        "ar":  2026,
-        "vecka":  26,
-        "veckodag":  "Tisdag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-06-24",
-        "ar":  2026,
-        "vecka":  26,
-        "veckodag":  "Onsdag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-06-25",
-        "ar":  2026,
-        "vecka":  26,
-        "veckodag":  "Torsdag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "",
-        "anteckningar":  "Semesterblock mamma 4 dagar"
-    },
-    {
-        "datum":  "2026-06-26",
-        "ar":  2026,
-        "vecka":  26,
-        "veckodag":  "Fredag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "",
-        "anteckningar":  "Semesterblock mamma 4 dagar"
-    },
-    {
-        "datum":  "2026-06-27",
-        "ar":  2026,
-        "vecka":  26,
-        "veckodag":  "Lördag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "Helg",
-        "anteckningar":  "Semesterblock mamma 4 dagar"
-    },
-    {
-        "datum":  "2026-06-28",
-        "ar":  2026,
-        "vecka":  26,
-        "veckodag":  "Söndag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "Helg",
-        "anteckningar":  "Semesterblock mamma 4 dagar"
-    },
-    {
-        "datum":  "2026-06-29",
-        "ar":  2026,
-        "vecka":  27,
-        "veckodag":  "Måndag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-06-30",
-        "ar":  2026,
-        "vecka":  27,
-        "veckodag":  "Tisdag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-07-01",
-        "ar":  2026,
-        "vecka":  27,
-        "veckodag":  "Onsdag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-07-02",
-        "ar":  2026,
-        "vecka":  27,
-        "veckodag":  "Torsdag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-07-03",
-        "ar":  2026,
-        "vecka":  27,
-        "veckodag":  "Fredag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-07-04",
-        "ar":  2026,
-        "vecka":  27,
-        "veckodag":  "Lördag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "Helg",
-        "anteckningar":  "Semesterblock mamma 5 dagar"
-    },
-    {
-        "datum":  "2026-07-05",
-        "ar":  2026,
-        "vecka":  27,
-        "veckodag":  "Söndag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "Helg",
-        "anteckningar":  "Semesterblock mamma 5 dagar"
-    },
-    {
-        "datum":  "2026-07-06",
-        "ar":  2026,
-        "vecka":  28,
-        "veckodag":  "Måndag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "",
-        "anteckningar":  "Semesterblock mamma 5 dagar"
-    },
-    {
-        "datum":  "2026-07-07",
-        "ar":  2026,
-        "vecka":  28,
-        "veckodag":  "Tisdag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "",
-        "anteckningar":  "Semesterblock mamma 5 dagar"
-    },
-    {
-        "datum":  "2026-07-08",
-        "ar":  2026,
-        "vecka":  28,
-        "veckodag":  "Onsdag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "",
-        "anteckningar":  "Semesterblock mamma 5 dagar"
-    },
-    {
-        "datum":  "2026-07-09",
-        "ar":  2026,
-        "vecka":  28,
-        "veckodag":  "Torsdag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-07-10",
-        "ar":  2026,
-        "vecka":  28,
-        "veckodag":  "Fredag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-07-11",
-        "ar":  2026,
-        "vecka":  28,
-        "veckodag":  "Lördag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "Helg",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-07-12",
-        "ar":  2026,
-        "vecka":  28,
-        "veckodag":  "Söndag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "Helg",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-07-13",
-        "ar":  2026,
-        "vecka":  29,
-        "veckodag":  "Måndag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-07-14",
-        "ar":  2026,
-        "vecka":  29,
-        "veckodag":  "Tisdag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-07-15",
-        "ar":  2026,
-        "vecka":  29,
-        "veckodag":  "Onsdag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-07-16",
-        "ar":  2026,
-        "vecka":  29,
-        "veckodag":  "Torsdag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "",
-        "anteckningar":  "Semesterblock pappa 5 dagar"
-    },
-    {
-        "datum":  "2026-07-17",
-        "ar":  2026,
-        "vecka":  29,
-        "veckodag":  "Fredag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "",
-        "anteckningar":  "Semesterblock pappa 5 dagar"
-    },
-    {
-        "datum":  "2026-07-18",
-        "ar":  2026,
-        "vecka":  29,
-        "veckodag":  "Lördag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "Helg",
-        "anteckningar":  "Semesterblock pappa 5 dagar"
-    },
-    {
-        "datum":  "2026-07-19",
-        "ar":  2026,
-        "vecka":  29,
-        "veckodag":  "Söndag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "Helg",
-        "anteckningar":  "Semesterblock pappa 5 dagar"
-    },
-    {
-        "datum":  "2026-07-20",
-        "ar":  2026,
-        "vecka":  30,
-        "veckodag":  "Måndag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "",
-        "anteckningar":  "Semesterblock pappa 5 dagar"
-    },
-    {
-        "datum":  "2026-07-21",
-        "ar":  2026,
-        "vecka":  30,
-        "veckodag":  "Tisdag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-07-22",
-        "ar":  2026,
-        "vecka":  30,
-        "veckodag":  "Onsdag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-07-23",
-        "ar":  2026,
-        "vecka":  30,
-        "veckodag":  "Torsdag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-07-24",
-        "ar":  2026,
-        "vecka":  30,
-        "veckodag":  "Fredag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-07-25",
-        "ar":  2026,
-        "vecka":  30,
-        "veckodag":  "Lördag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "Helg",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-07-26",
-        "ar":  2026,
-        "vecka":  30,
-        "veckodag":  "Söndag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "Helg",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-07-27",
-        "ar":  2026,
-        "vecka":  31,
-        "veckodag":  "Måndag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-07-28",
-        "ar":  2026,
-        "vecka":  31,
-        "veckodag":  "Tisdag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-07-29",
-        "ar":  2026,
-        "vecka":  31,
-        "veckodag":  "Onsdag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-07-30",
-        "ar":  2026,
-        "vecka":  31,
-        "veckodag":  "Torsdag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-07-31",
-        "ar":  2026,
-        "vecka":  31,
-        "veckodag":  "Fredag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "",
-        "anteckningar":  "Semesterblock pappa 4 dagar"
-    },
-    {
-        "datum":  "2026-08-01",
-        "ar":  2026,
-        "vecka":  31,
-        "veckodag":  "Lördag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "Helg",
-        "anteckningar":  "Semesterblock pappa 4 dagar"
-    },
-    {
-        "datum":  "2026-08-02",
-        "ar":  2026,
-        "vecka":  31,
-        "veckodag":  "Söndag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "Helg",
-        "anteckningar":  "Semesterblock pappa 4 dagar"
-    },
-    {
-        "datum":  "2026-08-03",
-        "ar":  2026,
-        "vecka":  32,
-        "veckodag":  "Måndag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "",
-        "anteckningar":  "Semesterblock pappa 4 dagar"
-    },
-    {
-        "datum":  "2026-08-04",
-        "ar":  2026,
-        "vecka":  32,
-        "veckodag":  "Tisdag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-08-05",
-        "ar":  2026,
-        "vecka":  32,
-        "veckodag":  "Onsdag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-08-06",
-        "ar":  2026,
-        "vecka":  32,
-        "veckodag":  "Torsdag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-08-07",
-        "ar":  2026,
-        "vecka":  32,
-        "veckodag":  "Fredag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-08-08",
-        "ar":  2026,
-        "vecka":  32,
-        "veckodag":  "Lördag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "Helg",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-08-09",
-        "ar":  2026,
-        "vecka":  32,
-        "veckodag":  "Söndag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "Helg",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-08-10",
-        "ar":  2026,
-        "vecka":  33,
-        "veckodag":  "Måndag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-08-11",
-        "ar":  2026,
-        "vecka":  33,
-        "veckodag":  "Tisdag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-08-12",
-        "ar":  2026,
-        "vecka":  33,
-        "veckodag":  "Onsdag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-08-13",
-        "ar":  2026,
-        "vecka":  33,
-        "veckodag":  "Torsdag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-08-14",
-        "ar":  2026,
-        "vecka":  33,
-        "veckodag":  "Fredag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-08-15",
-        "ar":  2026,
-        "vecka":  33,
-        "veckodag":  "Lördag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "Helg",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-08-16",
-        "ar":  2026,
-        "vecka":  33,
-        "veckodag":  "Söndag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "Helg",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-08-17",
-        "ar":  2026,
-        "vecka":  34,
-        "veckodag":  "måndag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "Ledig",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-08-18",
-        "ar":  2026,
-        "vecka":  34,
-        "veckodag":  "tisdag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "06:30-14:30",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-08-19",
-        "ar":  2026,
-        "vecka":  34,
-        "veckodag":  "onsdag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "08:30-16:30",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-08-20",
-        "ar":  2026,
-        "vecka":  34,
-        "veckodag":  "torsdag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "07:20-14:30",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-08-21",
-        "ar":  2026,
-        "vecka":  34,
-        "veckodag":  "fredag",
-        "hos":  "Pappa",
-        "hamtningsLamning":  "08:30-16:15",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-08-22",
-        "ar":  2026,
-        "vecka":  34,
-        "veckodag":  "lördag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "Helg",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-08-23",
-        "ar":  2026,
-        "vecka":  34,
-        "veckodag":  "söndag",
-        "hos":  "Mamma",
-        "hamtningsLamning":  "Helg",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-08-24",
-        "ar":  2026,
-        "vecka":  35,
-        "veckodag":  "måndag",
-        "hos":  "",
-        "hamtningsLamning":  "",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-08-25",
-        "ar":  2026,
-        "vecka":  35,
-        "veckodag":  "tisdag",
-        "hos":  "",
-        "hamtningsLamning":  "",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-08-26",
-        "ar":  2026,
-        "vecka":  35,
-        "veckodag":  "onsdag",
-        "hos":  "",
-        "hamtningsLamning":  "",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-08-27",
-        "ar":  2026,
-        "vecka":  35,
-        "veckodag":  "torsdag",
-        "hos":  "",
-        "hamtningsLamning":  "",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-08-28",
-        "ar":  2026,
-        "vecka":  35,
-        "veckodag":  "fredag",
-        "hos":  "",
-        "hamtningsLamning":  "",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-08-29",
-        "ar":  2026,
-        "vecka":  35,
-        "veckodag":  "lördag",
-        "hos":  "",
-        "hamtningsLamning":  "",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-08-30",
-        "ar":  2026,
-        "vecka":  35,
-        "veckodag":  "söndag",
-        "hos":  "",
-        "hamtningsLamning":  "",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-08-31",
-        "ar":  2026,
-        "vecka":  36,
-        "veckodag":  "måndag",
-        "hos":  "",
-        "hamtningsLamning":  "",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-09-01",
-        "ar":  2026,
-        "vecka":  36,
-        "veckodag":  "tisdag",
-        "hos":  "",
-        "hamtningsLamning":  "",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-09-02",
-        "ar":  2026,
-        "vecka":  36,
-        "veckodag":  "onsdag",
-        "hos":  "",
-        "hamtningsLamning":  "",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-09-03",
-        "ar":  2026,
-        "vecka":  36,
-        "veckodag":  "torsdag",
-        "hos":  "",
-        "hamtningsLamning":  "",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-09-04",
-        "ar":  2026,
-        "vecka":  36,
-        "veckodag":  "fredag",
-        "hos":  "",
-        "hamtningsLamning":  "",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-09-05",
-        "ar":  2026,
-        "vecka":  36,
-        "veckodag":  "lördag",
-        "hos":  "",
-        "hamtningsLamning":  "",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-09-06",
-        "ar":  2026,
-        "vecka":  36,
-        "veckodag":  "söndag",
-        "hos":  "",
-        "hamtningsLamning":  "",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-09-07",
-        "ar":  2026,
-        "vecka":  37,
-        "veckodag":  "måndag",
-        "hos":  "",
-        "hamtningsLamning":  "",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-09-08",
-        "ar":  2026,
-        "vecka":  37,
-        "veckodag":  "tisdag",
-        "hos":  "",
-        "hamtningsLamning":  "",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-09-09",
-        "ar":  2026,
-        "vecka":  37,
-        "veckodag":  "onsdag",
-        "hos":  "",
-        "hamtningsLamning":  "",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-09-10",
-        "ar":  2026,
-        "vecka":  37,
-        "veckodag":  "torsdag",
-        "hos":  "",
-        "hamtningsLamning":  "",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-09-11",
-        "ar":  2026,
-        "vecka":  37,
-        "veckodag":  "fredag",
-        "hos":  "",
-        "hamtningsLamning":  "",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-09-12",
-        "ar":  2026,
-        "vecka":  37,
-        "veckodag":  "lördag",
-        "hos":  "",
-        "hamtningsLamning":  "",
-        "anteckningar":  null
-    },
-    {
-        "datum":  "2026-09-13",
-        "ar":  2026,
-        "vecka":  37,
-        "veckodag":  "söndag",
-        "hos":  "",
-        "hamtningsLamning":  "",
-        "anteckningar":  null
+[
+    {
+        "datum": "2026-02-26",
+        "ar": 2026,
+        "vecka": 9,
+        "veckodag": "Torsdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "09:00-16:20",
+        "anteckningar": "Mamma jobbar till 18:30 Pappa hämtar"
+    },
+    {
+        "datum": "2026-02-27",
+        "ar": 2026,
+        "vecka": 9,
+        "veckodag": "Fredag",
+        "hos": "Pappa",
+        "hamtningsLamning": "Ledig",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-02-28",
+        "ar": 2026,
+        "vecka": 9,
+        "veckodag": "Lördag",
+        "hos": "Pappa",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-03-01",
+        "ar": 2026,
+        "vecka": 9,
+        "veckodag": "Söndag",
+        "hos": "Pappa",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-03-02",
+        "ar": 2026,
+        "vecka": 10,
+        "veckodag": "Måndag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Ledig",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-03-03",
+        "ar": 2026,
+        "vecka": 10,
+        "veckodag": "Tisdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "06:30-14:30 ?",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-03-04",
+        "ar": 2026,
+        "vecka": 10,
+        "veckodag": "Onsdag",
+        "hos": "Pappa",
+        "hamtningsLamning": "08:30-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-03-05",
+        "ar": 2026,
+        "vecka": 10,
+        "veckodag": "Torsdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "07:20-14:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-03-06",
+        "ar": 2026,
+        "vecka": 10,
+        "veckodag": "Fredag",
+        "hos": "Pappa",
+        "hamtningsLamning": "08:30-16:20",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-03-07",
+        "ar": 2026,
+        "vecka": 10,
+        "veckodag": "Lördag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-03-08",
+        "ar": 2026,
+        "vecka": 10,
+        "veckodag": "Söndag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-03-09",
+        "ar": 2026,
+        "vecka": 11,
+        "veckodag": "Måndag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:30-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-03-10",
+        "ar": 2026,
+        "vecka": 11,
+        "veckodag": "Tisdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Ledig",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-03-11",
+        "ar": 2026,
+        "vecka": 11,
+        "veckodag": "Onsdag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:30-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-03-12",
+        "ar": 2026,
+        "vecka": 11,
+        "veckodag": "Torsdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "07:20-14:45",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-03-13",
+        "ar": 2026,
+        "vecka": 11,
+        "veckodag": "Fredag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:30-16:15",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-03-14",
+        "ar": 2026,
+        "vecka": 11,
+        "veckodag": "Lördag",
+        "hos": "Pappa",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-03-15",
+        "ar": 2026,
+        "vecka": 11,
+        "veckodag": "Söndag",
+        "hos": "Pappa",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-03-16",
+        "ar": 2026,
+        "vecka": 12,
+        "veckodag": "Måndag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:20-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-03-17",
+        "ar": 2026,
+        "vecka": 12,
+        "veckodag": "Tisdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Ledig",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-03-18",
+        "ar": 2026,
+        "vecka": 12,
+        "veckodag": "Onsdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "06:30-14:45",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-03-19",
+        "ar": 2026,
+        "vecka": 12,
+        "veckodag": "Torsdag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:30-16:20",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-03-20",
+        "ar": 2026,
+        "vecka": 12,
+        "veckodag": "Fredag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:20-16:20",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-03-21",
+        "ar": 2026,
+        "vecka": 12,
+        "veckodag": "Lördag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-03-22",
+        "ar": 2026,
+        "vecka": 12,
+        "veckodag": "Söndag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-03-23",
+        "ar": 2026,
+        "vecka": 13,
+        "veckodag": "Måndag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:30-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-03-24",
+        "ar": 2026,
+        "vecka": 13,
+        "veckodag": "Tisdag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:20-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-03-25",
+        "ar": 2026,
+        "vecka": 13,
+        "veckodag": "Onsdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "07:20-14:45",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-03-26",
+        "ar": 2026,
+        "vecka": 13,
+        "veckodag": "Torsdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "09:00-16:20",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-03-27",
+        "ar": 2026,
+        "vecka": 13,
+        "veckodag": "Fredag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Ledig",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-03-28",
+        "ar": 2026,
+        "vecka": 13,
+        "veckodag": "Lördag",
+        "hos": "Pappa",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-03-29",
+        "ar": 2026,
+        "vecka": 13,
+        "veckodag": "Söndag",
+        "hos": "Pappa",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-03-30",
+        "ar": 2026,
+        "vecka": 14,
+        "veckodag": "Måndag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Ledig",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-03-31",
+        "ar": 2026,
+        "vecka": 14,
+        "veckodag": "Tisdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "06:30-14:30 ?",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-04-01",
+        "ar": 2026,
+        "vecka": 14,
+        "veckodag": "Onsdag",
+        "hos": "Pappa",
+        "hamtningsLamning": "08:30-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-04-02",
+        "ar": 2026,
+        "vecka": 14,
+        "veckodag": "Torsdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "07:20-14:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-04-03",
+        "ar": 2026,
+        "vecka": 14,
+        "veckodag": "Fredag",
+        "hos": "Pappa",
+        "hamtningsLamning": "röd dag",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-04-04",
+        "ar": 2026,
+        "vecka": 14,
+        "veckodag": "Lördag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-04-05",
+        "ar": 2026,
+        "vecka": 14,
+        "veckodag": "Söndag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-04-06",
+        "ar": 2026,
+        "vecka": 15,
+        "veckodag": "Måndag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:30-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-04-07",
+        "ar": 2026,
+        "vecka": 15,
+        "veckodag": "Tisdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Ledig",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-04-08",
+        "ar": 2026,
+        "vecka": 15,
+        "veckodag": "Onsdag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:30-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-04-09",
+        "ar": 2026,
+        "vecka": 15,
+        "veckodag": "Torsdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "07:20-14:45",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-04-10",
+        "ar": 2026,
+        "vecka": 15,
+        "veckodag": "Fredag",
+        "hos": "Pappa",
+        "hamtningsLamning": "Pappaledig",
+        "anteckningar": "Åka till Farfar"
+    },
+    {
+        "datum": "2026-04-11",
+        "ar": 2026,
+        "vecka": 15,
+        "veckodag": "Lördag",
+        "hos": "Pappa",
+        "hamtningsLamning": "Helg",
+        "anteckningar": "Åka till Farfar"
+    },
+    {
+        "datum": "2026-04-12",
+        "ar": 2026,
+        "vecka": 15,
+        "veckodag": "Söndag",
+        "hos": "Pappa",
+        "hamtningsLamning": "Helg",
+        "anteckningar": "Åka till Farfar"
+    },
+    {
+        "datum": "2026-04-13",
+        "ar": 2026,
+        "vecka": 16,
+        "veckodag": "Måndag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:20-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-04-14",
+        "ar": 2026,
+        "vecka": 16,
+        "veckodag": "Tisdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Ledig",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-04-15",
+        "ar": 2026,
+        "vecka": 16,
+        "veckodag": "Onsdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "06:30-14:45",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-04-16",
+        "ar": 2026,
+        "vecka": 16,
+        "veckodag": "Torsdag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:30-16:20",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-04-17",
+        "ar": 2026,
+        "vecka": 16,
+        "veckodag": "Fredag",
+        "hos": "Mamma",
+        "hamtningsLamning": "07:20-14:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-04-18",
+        "ar": 2026,
+        "vecka": 16,
+        "veckodag": "Lördag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-04-19",
+        "ar": 2026,
+        "vecka": 16,
+        "veckodag": "Söndag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-04-20",
+        "ar": 2026,
+        "vecka": 17,
+        "veckodag": "Måndag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:30-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-04-21",
+        "ar": 2026,
+        "vecka": 17,
+        "veckodag": "Tisdag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:20-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-04-22",
+        "ar": 2026,
+        "vecka": 17,
+        "veckodag": "Onsdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "07:20-14:45",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-04-23",
+        "ar": 2026,
+        "vecka": 17,
+        "veckodag": "Torsdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "09:00-16:20",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-04-24",
+        "ar": 2026,
+        "vecka": 17,
+        "veckodag": "Fredag",
+        "hos": "Pappa",
+        "hamtningsLamning": "Ledig",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-04-25",
+        "ar": 2026,
+        "vecka": 17,
+        "veckodag": "Lördag",
+        "hos": "Pappa",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-04-26",
+        "ar": 2026,
+        "vecka": 17,
+        "veckodag": "Söndag",
+        "hos": "Pappa",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-04-27",
+        "ar": 2026,
+        "vecka": 18,
+        "veckodag": "Måndag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Ledig",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-04-28",
+        "ar": 2026,
+        "vecka": 18,
+        "veckodag": "Tisdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "06:30-14:30 ?",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-04-29",
+        "ar": 2026,
+        "vecka": 18,
+        "veckodag": "Onsdag",
+        "hos": "Pappa",
+        "hamtningsLamning": "08:30-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-04-30",
+        "ar": 2026,
+        "vecka": 18,
+        "veckodag": "Torsdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "07:20-14:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-05-01",
+        "ar": 2026,
+        "vecka": 18,
+        "veckodag": "Fredag",
+        "hos": "Pappa",
+        "hamtningsLamning": "08:30-16:20",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-05-02",
+        "ar": 2026,
+        "vecka": 18,
+        "veckodag": "Lördag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-05-03",
+        "ar": 2026,
+        "vecka": 18,
+        "veckodag": "Söndag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-05-04",
+        "ar": 2026,
+        "vecka": 19,
+        "veckodag": "Måndag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:30-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-05-05",
+        "ar": 2026,
+        "vecka": 19,
+        "veckodag": "Tisdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Ledig",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-05-06",
+        "ar": 2026,
+        "vecka": 19,
+        "veckodag": "Onsdag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:30-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-05-07",
+        "ar": 2026,
+        "vecka": 19,
+        "veckodag": "Torsdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "07:20-14:45",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-05-08",
+        "ar": 2026,
+        "vecka": 19,
+        "veckodag": "Fredag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:30-16:15",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-05-09",
+        "ar": 2026,
+        "vecka": 19,
+        "veckodag": "Lördag",
+        "hos": "Pappa",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-05-10",
+        "ar": 2026,
+        "vecka": 19,
+        "veckodag": "Söndag",
+        "hos": "Pappa",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-05-11",
+        "ar": 2026,
+        "vecka": 20,
+        "veckodag": "Måndag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:20-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-05-12",
+        "ar": 2026,
+        "vecka": 20,
+        "veckodag": "Tisdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Ledig",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-05-13",
+        "ar": 2026,
+        "vecka": 20,
+        "veckodag": "Onsdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "06:30-14:45",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-05-14",
+        "ar": 2026,
+        "vecka": 20,
+        "veckodag": "Torsdag",
+        "hos": "Pappa",
+        "hamtningsLamning": "Röd dag",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-05-15",
+        "ar": 2026,
+        "vecka": 20,
+        "veckodag": "Fredag",
+        "hos": "Mamma",
+        "hamtningsLamning": "pappa ledig",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-05-16",
+        "ar": 2026,
+        "vecka": 20,
+        "veckodag": "Lördag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-05-17",
+        "ar": 2026,
+        "vecka": 20,
+        "veckodag": "Söndag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-05-18",
+        "ar": 2026,
+        "vecka": 21,
+        "veckodag": "Måndag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:30-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-05-19",
+        "ar": 2026,
+        "vecka": 21,
+        "veckodag": "Tisdag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:20-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-05-20",
+        "ar": 2026,
+        "vecka": 21,
+        "veckodag": "Onsdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "07:20-14:45",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-05-21",
+        "ar": 2026,
+        "vecka": 21,
+        "veckodag": "Torsdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "09:00-16:20",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-05-22",
+        "ar": 2026,
+        "vecka": 21,
+        "veckodag": "Fredag",
+        "hos": "Pappa",
+        "hamtningsLamning": "Ledig",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-05-23",
+        "ar": 2026,
+        "vecka": 21,
+        "veckodag": "Lördag",
+        "hos": "Pappa",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-05-24",
+        "ar": 2026,
+        "vecka": 21,
+        "veckodag": "Söndag",
+        "hos": "Pappa",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-05-25",
+        "ar": 2026,
+        "vecka": 22,
+        "veckodag": "Måndag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Ledig",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-05-26",
+        "ar": 2026,
+        "vecka": 22,
+        "veckodag": "Tisdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "06:30-14:30 ?",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-05-27",
+        "ar": 2026,
+        "vecka": 22,
+        "veckodag": "Onsdag",
+        "hos": "Pappa",
+        "hamtningsLamning": "08:30-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-05-28",
+        "ar": 2026,
+        "vecka": 22,
+        "veckodag": "Torsdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "07:20-14:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-05-29",
+        "ar": 2026,
+        "vecka": 22,
+        "veckodag": "Fredag",
+        "hos": "Pappa",
+        "hamtningsLamning": "08:30-16:20",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-05-30",
+        "ar": 2026,
+        "vecka": 22,
+        "veckodag": "Lördag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-05-31",
+        "ar": 2026,
+        "vecka": 22,
+        "veckodag": "Söndag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-06-01",
+        "ar": 2026,
+        "vecka": 23,
+        "veckodag": "Måndag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:30-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-06-02",
+        "ar": 2026,
+        "vecka": 23,
+        "veckodag": "Tisdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Ledig",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-06-03",
+        "ar": 2026,
+        "vecka": 23,
+        "veckodag": "Onsdag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:30-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-06-04",
+        "ar": 2026,
+        "vecka": 23,
+        "veckodag": "Torsdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "07:20-14:45",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-06-05",
+        "ar": 2026,
+        "vecka": 23,
+        "veckodag": "Fredag",
+        "hos": "Pappa",
+        "hamtningsLamning": "Pappa ledig åker till gbg med farmor",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-06-06",
+        "ar": 2026,
+        "vecka": 23,
+        "veckodag": "Lördag",
+        "hos": "Pappa",
+        "hamtningsLamning": "Pappa ledig åker till gbg med farmor",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-06-07",
+        "ar": 2026,
+        "vecka": 23,
+        "veckodag": "Söndag",
+        "hos": "Pappa",
+        "hamtningsLamning": "Pappa ledig åker till gbg med farmor",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-06-08",
+        "ar": 2026,
+        "vecka": 24,
+        "veckodag": "Måndag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:20-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-06-09",
+        "ar": 2026,
+        "vecka": 24,
+        "veckodag": "Tisdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Ledig",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-06-10",
+        "ar": 2026,
+        "vecka": 24,
+        "veckodag": "Onsdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "06:30-14:45",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-06-11",
+        "ar": 2026,
+        "vecka": 24,
+        "veckodag": "Torsdag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:30-16:20",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-06-12",
+        "ar": 2026,
+        "vecka": 24,
+        "veckodag": "Fredag",
+        "hos": "Mamma",
+        "hamtningsLamning": "07:20-14:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-06-13",
+        "ar": 2026,
+        "vecka": 24,
+        "veckodag": "Lördag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-06-14",
+        "ar": 2026,
+        "vecka": 24,
+        "veckodag": "Söndag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-06-15",
+        "ar": 2026,
+        "vecka": 25,
+        "veckodag": "Måndag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:30-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-06-16",
+        "ar": 2026,
+        "vecka": 25,
+        "veckodag": "Tisdag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:20-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-06-17",
+        "ar": 2026,
+        "vecka": 25,
+        "veckodag": "Onsdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "07:20-14:45",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-06-18",
+        "ar": 2026,
+        "vecka": 25,
+        "veckodag": "Torsdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "09:00-16:20",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-06-19",
+        "ar": 2026,
+        "vecka": 25,
+        "veckodag": "Fredag",
+        "hos": "Pappa",
+        "hamtningsLamning": "Ledig",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-06-20",
+        "ar": 2026,
+        "vecka": 25,
+        "veckodag": "Lördag",
+        "hos": "Pappa",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-06-21",
+        "ar": 2026,
+        "vecka": 25,
+        "veckodag": "Söndag",
+        "hos": "Pappa",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-06-22",
+        "ar": 2026,
+        "vecka": 26,
+        "veckodag": "Måndag",
+        "hos": "Mamma",
+        "hamtningsLamning": "",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-06-23",
+        "ar": 2026,
+        "vecka": 26,
+        "veckodag": "Tisdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-06-24",
+        "ar": 2026,
+        "vecka": 26,
+        "veckodag": "Onsdag",
+        "hos": "Pappa",
+        "hamtningsLamning": "",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-06-25",
+        "ar": 2026,
+        "vecka": 26,
+        "veckodag": "Torsdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "",
+        "anteckningar": "Semesterblock mamma 4 dagar"
+    },
+    {
+        "datum": "2026-06-26",
+        "ar": 2026,
+        "vecka": 26,
+        "veckodag": "Fredag",
+        "hos": "Mamma",
+        "hamtningsLamning": "",
+        "anteckningar": "Semesterblock mamma 4 dagar"
+    },
+    {
+        "datum": "2026-06-27",
+        "ar": 2026,
+        "vecka": 26,
+        "veckodag": "Lördag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Helg",
+        "anteckningar": "Semesterblock mamma 4 dagar"
+    },
+    {
+        "datum": "2026-06-28",
+        "ar": 2026,
+        "vecka": 26,
+        "veckodag": "Söndag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Helg",
+        "anteckningar": "Semesterblock mamma 4 dagar"
+    },
+    {
+        "datum": "2026-06-29",
+        "ar": 2026,
+        "vecka": 27,
+        "veckodag": "Måndag",
+        "hos": "Pappa",
+        "hamtningsLamning": "",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-06-30",
+        "ar": 2026,
+        "vecka": 27,
+        "veckodag": "Tisdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-07-01",
+        "ar": 2026,
+        "vecka": 27,
+        "veckodag": "Onsdag",
+        "hos": "Pappa",
+        "hamtningsLamning": "",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-07-02",
+        "ar": 2026,
+        "vecka": 27,
+        "veckodag": "Torsdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-07-03",
+        "ar": 2026,
+        "vecka": 27,
+        "veckodag": "Fredag",
+        "hos": "Pappa",
+        "hamtningsLamning": "",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-07-04",
+        "ar": 2026,
+        "vecka": 27,
+        "veckodag": "Lördag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Helg",
+        "anteckningar": "Semesterblock mamma 5 dagar"
+    },
+    {
+        "datum": "2026-07-05",
+        "ar": 2026,
+        "vecka": 27,
+        "veckodag": "Söndag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Helg",
+        "anteckningar": "Semesterblock mamma 5 dagar"
+    },
+    {
+        "datum": "2026-07-06",
+        "ar": 2026,
+        "vecka": 28,
+        "veckodag": "Måndag",
+        "hos": "Mamma",
+        "hamtningsLamning": "",
+        "anteckningar": "Semesterblock mamma 5 dagar"
+    },
+    {
+        "datum": "2026-07-07",
+        "ar": 2026,
+        "vecka": 28,
+        "veckodag": "Tisdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "",
+        "anteckningar": "Semesterblock mamma 5 dagar"
+    },
+    {
+        "datum": "2026-07-08",
+        "ar": 2026,
+        "vecka": 28,
+        "veckodag": "Onsdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "",
+        "anteckningar": "Semesterblock mamma 5 dagar"
+    },
+    {
+        "datum": "2026-07-09",
+        "ar": 2026,
+        "vecka": 28,
+        "veckodag": "Torsdag",
+        "hos": "Pappa",
+        "hamtningsLamning": "",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-07-10",
+        "ar": 2026,
+        "vecka": 28,
+        "veckodag": "Fredag",
+        "hos": "Mamma",
+        "hamtningsLamning": "",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-07-11",
+        "ar": 2026,
+        "vecka": 28,
+        "veckodag": "Lördag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-07-12",
+        "ar": 2026,
+        "vecka": 28,
+        "veckodag": "Söndag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-07-13",
+        "ar": 2026,
+        "vecka": 29,
+        "veckodag": "Måndag",
+        "hos": "Pappa",
+        "hamtningsLamning": "",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-07-14",
+        "ar": 2026,
+        "vecka": 29,
+        "veckodag": "Tisdag",
+        "hos": "Pappa",
+        "hamtningsLamning": "",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-07-15",
+        "ar": 2026,
+        "vecka": 29,
+        "veckodag": "Onsdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-07-16",
+        "ar": 2026,
+        "vecka": 29,
+        "veckodag": "Torsdag",
+        "hos": "Pappa",
+        "hamtningsLamning": "",
+        "anteckningar": "Semesterblock pappa 5 dagar"
+    },
+    {
+        "datum": "2026-07-17",
+        "ar": 2026,
+        "vecka": 29,
+        "veckodag": "Fredag",
+        "hos": "Pappa",
+        "hamtningsLamning": "",
+        "anteckningar": "Semesterblock pappa 5 dagar"
+    },
+    {
+        "datum": "2026-07-18",
+        "ar": 2026,
+        "vecka": 29,
+        "veckodag": "Lördag",
+        "hos": "Pappa",
+        "hamtningsLamning": "Helg",
+        "anteckningar": "Semesterblock pappa 5 dagar"
+    },
+    {
+        "datum": "2026-07-19",
+        "ar": 2026,
+        "vecka": 29,
+        "veckodag": "Söndag",
+        "hos": "Pappa",
+        "hamtningsLamning": "Helg",
+        "anteckningar": "Semesterblock pappa 5 dagar"
+    },
+    {
+        "datum": "2026-07-20",
+        "ar": 2026,
+        "vecka": 30,
+        "veckodag": "Måndag",
+        "hos": "Pappa",
+        "hamtningsLamning": "",
+        "anteckningar": "Semesterblock pappa 5 dagar"
+    },
+    {
+        "datum": "2026-07-21",
+        "ar": 2026,
+        "vecka": 30,
+        "veckodag": "Tisdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-07-22",
+        "ar": 2026,
+        "vecka": 30,
+        "veckodag": "Onsdag",
+        "hos": "Pappa",
+        "hamtningsLamning": "",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-07-23",
+        "ar": 2026,
+        "vecka": 30,
+        "veckodag": "Torsdag",
+        "hos": "Pappa",
+        "hamtningsLamning": "",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-07-24",
+        "ar": 2026,
+        "vecka": 30,
+        "veckodag": "Fredag",
+        "hos": "Pappa",
+        "hamtningsLamning": "",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-07-25",
+        "ar": 2026,
+        "vecka": 30,
+        "veckodag": "Lördag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-07-26",
+        "ar": 2026,
+        "vecka": 30,
+        "veckodag": "Söndag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-07-27",
+        "ar": 2026,
+        "vecka": 31,
+        "veckodag": "Måndag",
+        "hos": "Pappa",
+        "hamtningsLamning": "",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-07-28",
+        "ar": 2026,
+        "vecka": 31,
+        "veckodag": "Tisdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-07-29",
+        "ar": 2026,
+        "vecka": 31,
+        "veckodag": "Onsdag",
+        "hos": "Pappa",
+        "hamtningsLamning": "",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-07-30",
+        "ar": 2026,
+        "vecka": 31,
+        "veckodag": "Torsdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-07-31",
+        "ar": 2026,
+        "vecka": 31,
+        "veckodag": "Fredag",
+        "hos": "Pappa",
+        "hamtningsLamning": "",
+        "anteckningar": "Semesterblock pappa 4 dagar"
+    },
+    {
+        "datum": "2026-08-01",
+        "ar": 2026,
+        "vecka": 31,
+        "veckodag": "Lördag",
+        "hos": "Pappa",
+        "hamtningsLamning": "Helg",
+        "anteckningar": "Semesterblock pappa 4 dagar"
+    },
+    {
+        "datum": "2026-08-02",
+        "ar": 2026,
+        "vecka": 31,
+        "veckodag": "Söndag",
+        "hos": "Pappa",
+        "hamtningsLamning": "Helg",
+        "anteckningar": "Semesterblock pappa 4 dagar"
+    },
+    {
+        "datum": "2026-08-03",
+        "ar": 2026,
+        "vecka": 32,
+        "veckodag": "Måndag",
+        "hos": "Pappa",
+        "hamtningsLamning": "",
+        "anteckningar": "Semesterblock pappa 4 dagar"
+    },
+    {
+        "datum": "2026-08-04",
+        "ar": 2026,
+        "vecka": 32,
+        "veckodag": "Tisdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-08-05",
+        "ar": 2026,
+        "vecka": 32,
+        "veckodag": "Onsdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-08-06",
+        "ar": 2026,
+        "vecka": 32,
+        "veckodag": "Torsdag",
+        "hos": "Pappa",
+        "hamtningsLamning": "",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-08-07",
+        "ar": 2026,
+        "vecka": 32,
+        "veckodag": "Fredag",
+        "hos": "Mamma",
+        "hamtningsLamning": "",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-08-08",
+        "ar": 2026,
+        "vecka": 32,
+        "veckodag": "Lördag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-08-09",
+        "ar": 2026,
+        "vecka": 32,
+        "veckodag": "Söndag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-08-10",
+        "ar": 2026,
+        "vecka": 33,
+        "veckodag": "Måndag",
+        "hos": "Pappa",
+        "hamtningsLamning": "",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-08-11",
+        "ar": 2026,
+        "vecka": 33,
+        "veckodag": "Tisdag",
+        "hos": "Pappa",
+        "hamtningsLamning": "",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-08-12",
+        "ar": 2026,
+        "vecka": 33,
+        "veckodag": "Onsdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-08-13",
+        "ar": 2026,
+        "vecka": 33,
+        "veckodag": "Torsdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-08-14",
+        "ar": 2026,
+        "vecka": 33,
+        "veckodag": "Fredag",
+        "hos": "Pappa",
+        "hamtningsLamning": "",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-08-15",
+        "ar": 2026,
+        "vecka": 33,
+        "veckodag": "Lördag",
+        "hos": "Pappa",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-08-16",
+        "ar": 2026,
+        "vecka": 33,
+        "veckodag": "Söndag",
+        "hos": "Pappa",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-08-17",
+        "ar": 2026,
+        "vecka": 34,
+        "veckodag": "måndag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Ledig",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-08-18",
+        "ar": 2026,
+        "vecka": 34,
+        "veckodag": "tisdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "06:30-14:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-08-19",
+        "ar": 2026,
+        "vecka": 34,
+        "veckodag": "onsdag",
+        "hos": "Pappa",
+        "hamtningsLamning": "08:30-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-08-20",
+        "ar": 2026,
+        "vecka": 34,
+        "veckodag": "torsdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "07:20-14:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-08-21",
+        "ar": 2026,
+        "vecka": 34,
+        "veckodag": "fredag",
+        "hos": "Pappa",
+        "hamtningsLamning": "08:30-16:15",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-08-22",
+        "ar": 2026,
+        "vecka": 34,
+        "veckodag": "lördag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-08-23",
+        "ar": 2026,
+        "vecka": 34,
+        "veckodag": "söndag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-08-24",
+        "ar": 2026,
+        "vecka": 35,
+        "veckodag": "måndag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:30-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-08-25",
+        "ar": 2026,
+        "vecka": 35,
+        "veckodag": "tisdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Ledig",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-08-26",
+        "ar": 2026,
+        "vecka": 35,
+        "veckodag": "onsdag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:30-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-08-27",
+        "ar": 2026,
+        "vecka": 35,
+        "veckodag": "torsdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "07:20-14:45",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-08-28",
+        "ar": 2026,
+        "vecka": 35,
+        "veckodag": "fredag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:30-16:15",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-08-29",
+        "ar": 2026,
+        "vecka": 35,
+        "veckodag": "lördag",
+        "hos": "Pappa",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-08-30",
+        "ar": 2026,
+        "vecka": 35,
+        "veckodag": "söndag",
+        "hos": "Pappa",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-08-31",
+        "ar": 2026,
+        "vecka": 36,
+        "veckodag": "måndag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:20-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-09-01",
+        "ar": 2026,
+        "vecka": 36,
+        "veckodag": "tisdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Ledig",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-09-02",
+        "ar": 2026,
+        "vecka": 36,
+        "veckodag": "onsdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "06:30-14:45",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-09-03",
+        "ar": 2026,
+        "vecka": 36,
+        "veckodag": "torsdag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:30-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-09-04",
+        "ar": 2026,
+        "vecka": 36,
+        "veckodag": "fredag",
+        "hos": "Mamma",
+        "hamtningsLamning": "07:20-14:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-09-05",
+        "ar": 2026,
+        "vecka": 36,
+        "veckodag": "lördag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-09-06",
+        "ar": 2026,
+        "vecka": 36,
+        "veckodag": "söndag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-09-07",
+        "ar": 2026,
+        "vecka": 37,
+        "veckodag": "måndag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:30-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-09-08",
+        "ar": 2026,
+        "vecka": 37,
+        "veckodag": "tisdag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:20-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-09-09",
+        "ar": 2026,
+        "vecka": 37,
+        "veckodag": "onsdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "07:20-14:45",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-09-10",
+        "ar": 2026,
+        "vecka": 37,
+        "veckodag": "torsdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "09:00-16:20",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-09-11",
+        "ar": 2026,
+        "vecka": 37,
+        "veckodag": "fredag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:30-16:15",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-09-12",
+        "ar": 2026,
+        "vecka": 37,
+        "veckodag": "lördag",
+        "hos": "Pappa",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-09-13",
+        "ar": 2026,
+        "vecka": 37,
+        "veckodag": "söndag",
+        "hos": "Pappa",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-09-14",
+        "ar": 2026,
+        "vecka": 38,
+        "veckodag": "måndag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Ledig",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-09-15",
+        "ar": 2026,
+        "vecka": 38,
+        "veckodag": "tisdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "06:30-14:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-09-16",
+        "ar": 2026,
+        "vecka": 38,
+        "veckodag": "onsdag",
+        "hos": "Pappa",
+        "hamtningsLamning": "08:30-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-09-17",
+        "ar": 2026,
+        "vecka": 38,
+        "veckodag": "torsdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "07:20-14:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-09-18",
+        "ar": 2026,
+        "vecka": 38,
+        "veckodag": "fredag",
+        "hos": "Pappa",
+        "hamtningsLamning": "08:30-16:15",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-09-19",
+        "ar": 2026,
+        "vecka": 38,
+        "veckodag": "lördag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-09-20",
+        "ar": 2026,
+        "vecka": 38,
+        "veckodag": "söndag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-09-21",
+        "ar": 2026,
+        "vecka": 39,
+        "veckodag": "måndag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:30-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-09-22",
+        "ar": 2026,
+        "vecka": 39,
+        "veckodag": "tisdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Ledig",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-09-23",
+        "ar": 2026,
+        "vecka": 39,
+        "veckodag": "onsdag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:30-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-09-24",
+        "ar": 2026,
+        "vecka": 39,
+        "veckodag": "torsdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "07:20-14:45",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-09-25",
+        "ar": 2026,
+        "vecka": 39,
+        "veckodag": "fredag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:30-16:15",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-09-26",
+        "ar": 2026,
+        "vecka": 39,
+        "veckodag": "lördag",
+        "hos": "Pappa",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-09-27",
+        "ar": 2026,
+        "vecka": 39,
+        "veckodag": "söndag",
+        "hos": "Pappa",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-09-28",
+        "ar": 2026,
+        "vecka": 40,
+        "veckodag": "måndag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:20-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-09-29",
+        "ar": 2026,
+        "vecka": 40,
+        "veckodag": "tisdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Ledig",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-09-30",
+        "ar": 2026,
+        "vecka": 40,
+        "veckodag": "onsdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "06:30-14:45",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-10-01",
+        "ar": 2026,
+        "vecka": 40,
+        "veckodag": "torsdag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:30-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-10-02",
+        "ar": 2026,
+        "vecka": 40,
+        "veckodag": "fredag",
+        "hos": "Mamma",
+        "hamtningsLamning": "07:20-14:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-10-03",
+        "ar": 2026,
+        "vecka": 40,
+        "veckodag": "lördag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-10-04",
+        "ar": 2026,
+        "vecka": 40,
+        "veckodag": "söndag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-10-05",
+        "ar": 2026,
+        "vecka": 41,
+        "veckodag": "måndag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:30-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-10-06",
+        "ar": 2026,
+        "vecka": 41,
+        "veckodag": "tisdag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:20-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-10-07",
+        "ar": 2026,
+        "vecka": 41,
+        "veckodag": "onsdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "07:20-14:45",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-10-08",
+        "ar": 2026,
+        "vecka": 41,
+        "veckodag": "torsdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "09:00-16:20",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-10-09",
+        "ar": 2026,
+        "vecka": 41,
+        "veckodag": "fredag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:30-16:15",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-10-10",
+        "ar": 2026,
+        "vecka": 41,
+        "veckodag": "lördag",
+        "hos": "Pappa",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-10-11",
+        "ar": 2026,
+        "vecka": 41,
+        "veckodag": "söndag",
+        "hos": "Pappa",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-10-12",
+        "ar": 2026,
+        "vecka": 42,
+        "veckodag": "måndag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Ledig",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-10-13",
+        "ar": 2026,
+        "vecka": 42,
+        "veckodag": "tisdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "06:30-14:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-10-14",
+        "ar": 2026,
+        "vecka": 42,
+        "veckodag": "onsdag",
+        "hos": "Pappa",
+        "hamtningsLamning": "08:30-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-10-15",
+        "ar": 2026,
+        "vecka": 42,
+        "veckodag": "torsdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "07:20-14:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-10-16",
+        "ar": 2026,
+        "vecka": 42,
+        "veckodag": "fredag",
+        "hos": "Pappa",
+        "hamtningsLamning": "08:30-16:15",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-10-17",
+        "ar": 2026,
+        "vecka": 42,
+        "veckodag": "lördag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-10-18",
+        "ar": 2026,
+        "vecka": 42,
+        "veckodag": "söndag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-10-19",
+        "ar": 2026,
+        "vecka": 43,
+        "veckodag": "måndag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:30-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-10-20",
+        "ar": 2026,
+        "vecka": 43,
+        "veckodag": "tisdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Ledig",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-10-21",
+        "ar": 2026,
+        "vecka": 43,
+        "veckodag": "onsdag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:30-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-10-22",
+        "ar": 2026,
+        "vecka": 43,
+        "veckodag": "torsdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "07:20-14:45",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-10-23",
+        "ar": 2026,
+        "vecka": 43,
+        "veckodag": "fredag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:30-16:15",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-10-24",
+        "ar": 2026,
+        "vecka": 43,
+        "veckodag": "lördag",
+        "hos": "Pappa",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-10-25",
+        "ar": 2026,
+        "vecka": 43,
+        "veckodag": "söndag",
+        "hos": "Pappa",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-10-26",
+        "ar": 2026,
+        "vecka": 44,
+        "veckodag": "måndag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:20-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-10-27",
+        "ar": 2026,
+        "vecka": 44,
+        "veckodag": "tisdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Ledig",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-10-28",
+        "ar": 2026,
+        "vecka": 44,
+        "veckodag": "onsdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "06:30-14:45",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-10-29",
+        "ar": 2026,
+        "vecka": 44,
+        "veckodag": "torsdag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:30-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-10-30",
+        "ar": 2026,
+        "vecka": 44,
+        "veckodag": "fredag",
+        "hos": "Mamma",
+        "hamtningsLamning": "07:20-14:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-10-31",
+        "ar": 2026,
+        "vecka": 44,
+        "veckodag": "lördag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-11-01",
+        "ar": 2026,
+        "vecka": 44,
+        "veckodag": "söndag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-11-02",
+        "ar": 2026,
+        "vecka": 45,
+        "veckodag": "måndag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:30-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-11-03",
+        "ar": 2026,
+        "vecka": 45,
+        "veckodag": "tisdag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:20-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-11-04",
+        "ar": 2026,
+        "vecka": 45,
+        "veckodag": "onsdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "07:20-14:45",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-11-05",
+        "ar": 2026,
+        "vecka": 45,
+        "veckodag": "torsdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "09:00-16:20",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-11-06",
+        "ar": 2026,
+        "vecka": 45,
+        "veckodag": "fredag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:30-16:15",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-11-07",
+        "ar": 2026,
+        "vecka": 45,
+        "veckodag": "lördag",
+        "hos": "Pappa",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-11-08",
+        "ar": 2026,
+        "vecka": 45,
+        "veckodag": "söndag",
+        "hos": "Pappa",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-11-09",
+        "ar": 2026,
+        "vecka": 46,
+        "veckodag": "måndag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Ledig",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-11-10",
+        "ar": 2026,
+        "vecka": 46,
+        "veckodag": "tisdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "06:30-14:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-11-11",
+        "ar": 2026,
+        "vecka": 46,
+        "veckodag": "onsdag",
+        "hos": "Pappa",
+        "hamtningsLamning": "08:30-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-11-12",
+        "ar": 2026,
+        "vecka": 46,
+        "veckodag": "torsdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "07:20-14:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-11-13",
+        "ar": 2026,
+        "vecka": 46,
+        "veckodag": "fredag",
+        "hos": "Pappa",
+        "hamtningsLamning": "08:30-16:15",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-11-14",
+        "ar": 2026,
+        "vecka": 46,
+        "veckodag": "lördag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-11-15",
+        "ar": 2026,
+        "vecka": 46,
+        "veckodag": "söndag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-11-16",
+        "ar": 2026,
+        "vecka": 47,
+        "veckodag": "måndag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:30-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-11-17",
+        "ar": 2026,
+        "vecka": 47,
+        "veckodag": "tisdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Ledig",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-11-18",
+        "ar": 2026,
+        "vecka": 47,
+        "veckodag": "onsdag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:30-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-11-19",
+        "ar": 2026,
+        "vecka": 47,
+        "veckodag": "torsdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "07:20-14:45",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-11-20",
+        "ar": 2026,
+        "vecka": 47,
+        "veckodag": "fredag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:30-16:15",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-11-21",
+        "ar": 2026,
+        "vecka": 47,
+        "veckodag": "lördag",
+        "hos": "Pappa",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-11-22",
+        "ar": 2026,
+        "vecka": 47,
+        "veckodag": "söndag",
+        "hos": "Pappa",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-11-23",
+        "ar": 2026,
+        "vecka": 48,
+        "veckodag": "måndag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:20-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-11-24",
+        "ar": 2026,
+        "vecka": 48,
+        "veckodag": "tisdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Ledig",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-11-25",
+        "ar": 2026,
+        "vecka": 48,
+        "veckodag": "onsdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "06:30-14:45",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-11-26",
+        "ar": 2026,
+        "vecka": 48,
+        "veckodag": "torsdag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:30-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-11-27",
+        "ar": 2026,
+        "vecka": 48,
+        "veckodag": "fredag",
+        "hos": "Mamma",
+        "hamtningsLamning": "07:20-14:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-11-28",
+        "ar": 2026,
+        "vecka": 48,
+        "veckodag": "lördag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-11-29",
+        "ar": 2026,
+        "vecka": 48,
+        "veckodag": "söndag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-11-30",
+        "ar": 2026,
+        "vecka": 49,
+        "veckodag": "måndag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:30-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-12-01",
+        "ar": 2026,
+        "vecka": 49,
+        "veckodag": "tisdag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:20-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-12-02",
+        "ar": 2026,
+        "vecka": 49,
+        "veckodag": "onsdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "07:20-14:45",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-12-03",
+        "ar": 2026,
+        "vecka": 49,
+        "veckodag": "torsdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "09:00-16:20",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-12-04",
+        "ar": 2026,
+        "vecka": 49,
+        "veckodag": "fredag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:30-16:15",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-12-05",
+        "ar": 2026,
+        "vecka": 49,
+        "veckodag": "lördag",
+        "hos": "Pappa",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-12-06",
+        "ar": 2026,
+        "vecka": 49,
+        "veckodag": "söndag",
+        "hos": "Pappa",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-12-07",
+        "ar": 2026,
+        "vecka": 50,
+        "veckodag": "måndag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Ledig",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-12-08",
+        "ar": 2026,
+        "vecka": 50,
+        "veckodag": "tisdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "06:30-14:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-12-09",
+        "ar": 2026,
+        "vecka": 50,
+        "veckodag": "onsdag",
+        "hos": "Pappa",
+        "hamtningsLamning": "08:30-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-12-10",
+        "ar": 2026,
+        "vecka": 50,
+        "veckodag": "torsdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "07:20-14:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-12-11",
+        "ar": 2026,
+        "vecka": 50,
+        "veckodag": "fredag",
+        "hos": "Pappa",
+        "hamtningsLamning": "08:30-16:15",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-12-12",
+        "ar": 2026,
+        "vecka": 50,
+        "veckodag": "lördag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-12-13",
+        "ar": 2026,
+        "vecka": 50,
+        "veckodag": "söndag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-12-14",
+        "ar": 2026,
+        "vecka": 51,
+        "veckodag": "måndag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:30-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-12-15",
+        "ar": 2026,
+        "vecka": 51,
+        "veckodag": "tisdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Ledig",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-12-16",
+        "ar": 2026,
+        "vecka": 51,
+        "veckodag": "onsdag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:30-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-12-17",
+        "ar": 2026,
+        "vecka": 51,
+        "veckodag": "torsdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "07:20-14:45",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-12-18",
+        "ar": 2026,
+        "vecka": 51,
+        "veckodag": "fredag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:30-16:15",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-12-19",
+        "ar": 2026,
+        "vecka": 51,
+        "veckodag": "lördag",
+        "hos": "Pappa",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-12-20",
+        "ar": 2026,
+        "vecka": 51,
+        "veckodag": "söndag",
+        "hos": "Pappa",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-12-21",
+        "ar": 2026,
+        "vecka": 52,
+        "veckodag": "måndag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:20-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-12-22",
+        "ar": 2026,
+        "vecka": 52,
+        "veckodag": "tisdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Ledig",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-12-23",
+        "ar": 2026,
+        "vecka": 52,
+        "veckodag": "onsdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "06:30-14:45",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-12-24",
+        "ar": 2026,
+        "vecka": 52,
+        "veckodag": "torsdag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:30-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-12-25",
+        "ar": 2026,
+        "vecka": 52,
+        "veckodag": "fredag",
+        "hos": "Mamma",
+        "hamtningsLamning": "07:20-14:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-12-26",
+        "ar": 2026,
+        "vecka": 52,
+        "veckodag": "lördag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-12-27",
+        "ar": 2026,
+        "vecka": 52,
+        "veckodag": "söndag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-12-28",
+        "ar": 2026,
+        "vecka": 53,
+        "veckodag": "måndag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:30-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-12-29",
+        "ar": 2026,
+        "vecka": 53,
+        "veckodag": "tisdag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:20-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-12-30",
+        "ar": 2026,
+        "vecka": 53,
+        "veckodag": "onsdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "07:20-14:45",
+        "anteckningar": null
+    },
+    {
+        "datum": "2026-12-31",
+        "ar": 2026,
+        "vecka": 53,
+        "veckodag": "torsdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "09:00-16:20",
+        "anteckningar": null
     }
 ]
