@@ -92,18 +92,30 @@ async function getNormalizedEntries() {
 
 function normalizeEntry(entry) {
   const dateObject = new Date(`${entry.datum}T00:00:00`);
+  const isoWeek = getIsoWeek(dateObject);
 
   return {
     ...entry,
     ar: entry.ar || dateObject.getFullYear(),
-    vecka: Number(entry.vecka),
+    vecka: Number(entry.vecka) || isoWeek.week,
     veckodag: entry.veckodag || "",
     hos: entry.hos || "",
     hamtningsLamning: entry.hamtningsLamning || "",
     anteckningar: entry.anteckningar || "",
     dateObject,
-    weekKey: `${entry.ar || dateObject.getFullYear()}-v${String(entry.vecka).padStart(2, "0")}`,
+    weekKey: `${isoWeek.year}-v${String(isoWeek.week).padStart(2, "0")}`,
   };
+}
+
+// ISO-vecka räknas från datumet, så rader utan Vecka fungerar och vecka 53 kan spänna över årsskiftet.
+function getIsoWeek(dateObject) {
+  const thursday = new Date(dateObject);
+  thursday.setDate(thursday.getDate() + 3 - ((thursday.getDay() + 6) % 7));
+  const firstThursday = new Date(thursday.getFullYear(), 0, 4);
+  firstThursday.setDate(firstThursday.getDate() + 3 - ((firstThursday.getDay() + 6) % 7));
+  const week = 1 + Math.round((thursday - firstThursday) / (7 * 24 * 60 * 60 * 1000));
+
+  return { year: thursday.getFullYear(), week };
 }
 
 async function loadEntries() {
@@ -321,12 +333,8 @@ function createMonthCell(day, iso, entry, todayIso) {
   cell.querySelector(".month-cell__owner").textContent = entry?.hos || "";
   cell.querySelector(".month-cell__timing").textContent = entry?.hamtningsLamning || "";
 
-  if (owner === "mamma") {
-    cell.classList.add("month-cell--mamma");
-  }
-
-  if (owner === "pappa") {
-    cell.classList.add("month-cell--pappa");
+  if (owner) {
+    cell.classList.add(`month-cell--${owner}`);
   }
 
   if (iso === todayIso) {
@@ -364,12 +372,8 @@ function createDayCard(entry, todayIso) {
   card.querySelector(".detail-value--notes").textContent = entry.anteckningar || "";
   card.querySelector(".edit-button").addEventListener("click", () => openEditDialog(entry));
 
-  if (owner === "mamma") {
-    card.classList.add("day-card--mamma");
-  }
-
-  if (owner === "pappa") {
-    card.classList.add("day-card--pappa");
+  if (owner) {
+    card.classList.add(`day-card--${owner}`);
   }
 
   if (entry.datum === todayIso) {
@@ -465,8 +469,18 @@ async function refreshFromLiveSource() {
   }
 }
 
+const KNOWN_OWNERS = ["mamma", "pappa", "pappa-mamma", "mamma-pappa"];
+
+// Delad dag skrivs som "Pappa → Mamma" (även "Pappa/Mamma" eller "Pappa -> Mamma" fungerar).
 function normalizeOwner(value) {
-  return (value || "").trim().toLowerCase();
+  const owner = (value || "")
+    .trim()
+    .toLowerCase()
+    .split(/\s*(?:→|->|\/)\s*/)
+    .filter(Boolean)
+    .join("-");
+
+  return KNOWN_OWNERS.includes(owner) ? owner : "";
 }
 
 function parseCsv(csvText) {

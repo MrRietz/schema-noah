@@ -186,6 +186,11 @@ body {
   border-color: rgba(31, 94, 168, 0.35);
 }
 
+.legend-swatch--split {
+  background: linear-gradient(135deg, var(--pappa) 50%, var(--mamma) 50%);
+  border-color: rgba(30, 42, 33, 0.25);
+}
+
 .status {
   min-height: 1.5rem;
   margin-top: 1rem;
@@ -299,6 +304,19 @@ body {
   background: linear-gradient(180deg, rgba(216, 234, 252, 0.96), rgba(255, 255, 255, 0.94));
 }
 
+/* Delad dag: diagonal delning, först den som har Noah på morgonen. */
+.month-cell--pappa-mamma,
+.day-card--pappa-mamma {
+  border-color: rgba(30, 42, 33, 0.16);
+  background: linear-gradient(135deg, rgba(216, 234, 252, 0.96) 50%, rgba(248, 215, 218, 0.96) 50%);
+}
+
+.month-cell--mamma-pappa,
+.day-card--mamma-pappa {
+  border-color: rgba(30, 42, 33, 0.16);
+  background: linear-gradient(135deg, rgba(248, 215, 218, 0.96) 50%, rgba(216, 234, 252, 0.96) 50%);
+}
+
 .month-cell--today {
   outline: 3px solid var(--today-outline);
   outline-offset: -1px;
@@ -320,6 +338,11 @@ body {
 
 .month-cell--pappa .month-cell__owner {
   color: var(--pappa-strong);
+}
+
+.month-cell--pappa-mamma .month-cell__owner,
+.month-cell--mamma-pappa .month-cell__owner {
+  color: var(--text-main);
 }
 
 .month-cell__timing {
@@ -460,6 +483,11 @@ body {
 
 .day-card--pappa .detail-value--owner {
   color: var(--pappa-strong);
+}
+
+.day-card--pappa-mamma .detail-value--owner,
+.day-card--mamma-pappa .detail-value--owner {
+  color: var(--text-main);
 }
 
 .detail-value--notes:empty::before,

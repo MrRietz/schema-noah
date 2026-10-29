@@ -2525,7 +2525,7 @@
         "vecka": 49,
         "veckodag": "torsdag",
         "hos": "Mamma",
-        "hamtningsLamning": "09:00-16:20",
+        "hamtningsLamning": "06:30-14:30",
         "anteckningar": null
     },
     {
@@ -2687,8 +2687,8 @@
         "vecka": 52,
         "veckodag": "måndag",
         "hos": "Pappa",
-        "hamtningsLamning": "07:20-16:30",
-        "anteckningar": null
+        "hamtningsLamning": "Ledig",
+        "anteckningar": "Ingen förskola – pappa ledig"
     },
     {
         "datum": "2026-12-22",
@@ -2697,52 +2697,52 @@
         "veckodag": "tisdag",
         "hos": "Mamma",
         "hamtningsLamning": "Ledig",
-        "anteckningar": null
+        "anteckningar": "Ingen förskola – pappa ledig"
     },
     {
         "datum": "2026-12-23",
         "ar": 2026,
         "vecka": 52,
         "veckodag": "onsdag",
-        "hos": "Mamma",
-        "hamtningsLamning": "06:30-14:45",
-        "anteckningar": null
+        "hos": "Pappa → Mamma",
+        "hamtningsLamning": "Byte 14:00",
+        "anteckningar": "Ingen förskola – pappa ledig. Mamma jobbar 06:45–14:00, lämnar hos pappa på morgonen och hämtar efter jobbet"
     },
     {
         "datum": "2026-12-24",
         "ar": 2026,
         "vecka": 52,
         "veckodag": "torsdag",
-        "hos": "Pappa",
-        "hamtningsLamning": "07:30-16:30",
-        "anteckningar": null
+        "hos": "Mamma",
+        "hamtningsLamning": "Julafton",
+        "anteckningar": "Ingen förskola – pappa ledig"
     },
     {
         "datum": "2026-12-25",
         "ar": 2026,
         "vecka": 52,
         "veckodag": "fredag",
-        "hos": "Mamma",
-        "hamtningsLamning": "07:20-14:30",
-        "anteckningar": null
+        "hos": "Pappa → Mamma",
+        "hamtningsLamning": "Byte 14:00",
+        "anteckningar": "Ingen förskola – pappa ledig. Juldagen. Mamma jobbar 07:45–14:00, lämnar hos pappa på morgonen och hämtar efter jobbet"
     },
     {
         "datum": "2026-12-26",
         "ar": 2026,
         "vecka": 52,
         "veckodag": "lördag",
-        "hos": "Mamma",
-        "hamtningsLamning": "Helg",
-        "anteckningar": null
+        "hos": "Pappa",
+        "hamtningsLamning": "Hos farfar",
+        "anteckningar": "Pappa och Noah hos farfar, sover över"
     },
     {
         "datum": "2026-12-27",
         "ar": 2026,
         "vecka": 52,
         "veckodag": "söndag",
-        "hos": "Mamma",
-        "hamtningsLamning": "Helg",
-        "anteckningar": null
+        "hos": "Pappa → Mamma",
+        "hamtningsLamning": "Byte ca 12:00",
+        "anteckningar": "Hem från farfar vid lunch, pappa lämnar Noah hos mamma"
     },
     {
         "datum": "2026-12-28",
@@ -2750,8 +2750,8 @@
         "vecka": 53,
         "veckodag": "måndag",
         "hos": "Pappa",
-        "hamtningsLamning": "07:30-16:30",
-        "anteckningar": null
+        "hamtningsLamning": "Ledig",
+        "anteckningar": "Ingen förskola – pappa ledig"
     },
     {
         "datum": "2026-12-29",
@@ -2759,8 +2759,8 @@
         "vecka": 53,
         "veckodag": "tisdag",
         "hos": "Pappa",
-        "hamtningsLamning": "07:20-16:30",
-        "anteckningar": null
+        "hamtningsLamning": "Ledig",
+        "anteckningar": "Ingen förskola – pappa ledig"
     },
     {
         "datum": "2026-12-30",
@@ -2768,16 +2768,295 @@
         "vecka": 53,
         "veckodag": "onsdag",
         "hos": "Mamma",
-        "hamtningsLamning": "07:20-14:45",
-        "anteckningar": null
+        "hamtningsLamning": "Ledig",
+        "anteckningar": "Ingen förskola – pappa ledig"
     },
     {
         "datum": "2026-12-31",
         "ar": 2026,
         "vecka": 53,
         "veckodag": "torsdag",
+        "hos": "Pappa",
+        "hamtningsLamning": "Nyårsafton",
+        "anteckningar": "Ingen förskola – pappa ledig"
+    },
+    {
+        "datum": "2027-01-01",
+        "ar": 2027,
+        "vecka": 53,
+        "veckodag": "fredag",
+        "hos": "Pappa → Mamma",
+        "hamtningsLamning": "Byte 14:00",
+        "anteckningar": "Ingen förskola – pappa ledig. Nyårsdagen. Mamma jobbar 08:30–14:00 och hämtar hos pappa efter jobbet"
+    },
+    {
+        "datum": "2027-01-02",
+        "ar": 2027,
+        "vecka": 53,
+        "veckodag": "lördag",
+        "hos": "Pappa",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2027-01-03",
+        "ar": 2027,
+        "vecka": 53,
+        "veckodag": "söndag",
+        "hos": "Pappa",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2027-01-04",
+        "ar": 2027,
+        "vecka": 1,
+        "veckodag": "måndag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Ledig",
+        "anteckningar": null
+    },
+    {
+        "datum": "2027-01-05",
+        "ar": 2027,
+        "vecka": 1,
+        "veckodag": "tisdag",
+        "hos": "Pappa → Mamma",
+        "hamtningsLamning": "Byte 14:00",
+        "anteckningar": "Trettonafton – pappa ledig, ingen förskola. Mamma jobbar 06:45–14:00, lämnar hos pappa på morgonen och hämtar efter jobbet"
+    },
+    {
+        "datum": "2027-01-06",
+        "ar": 2027,
+        "vecka": 1,
+        "veckodag": "onsdag",
+        "hos": "Mamma → Pappa",
+        "hamtningsLamning": "Byte före 13:00",
+        "anteckningar": "Trettondagen. Mamma jobbar 13:00–18:00 och lämnar hos pappa innan"
+    },
+    {
+        "datum": "2027-01-07",
+        "ar": 2027,
+        "vecka": 1,
+        "veckodag": "torsdag",
+        "hos": "Pappa → Mamma",
+        "hamtningsLamning": "Byte 14:00",
+        "anteckningar": "Förskolan stängd. Pappa jobbar hemifrån, mamma hämtar efter jobbet (07:45–14:00)"
+    },
+    {
+        "datum": "2027-01-08",
+        "ar": 2027,
+        "vecka": 1,
+        "veckodag": "fredag",
+        "hos": "Mamma → Pappa",
+        "hamtningsLamning": "Byte 14:00",
+        "anteckningar": "Förskolan stängd. Mamma lämnar hos pappa kl 14 (jobbar 14:00–21:15), pappa flexar"
+    },
+    {
+        "datum": "2027-01-09",
+        "ar": 2027,
+        "vecka": 1,
+        "veckodag": "lördag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Helg",
+        "anteckningar": "Ny helgrotation: pappa har jämna veckor fre–sön från v2"
+    },
+    {
+        "datum": "2027-01-10",
+        "ar": 2027,
+        "vecka": 1,
+        "veckodag": "söndag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2027-01-11",
+        "ar": 2027,
+        "vecka": 2,
+        "veckodag": "måndag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:30-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2027-01-12",
+        "ar": 2027,
+        "vecka": 2,
+        "veckodag": "tisdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Ledig",
+        "anteckningar": null
+    },
+    {
+        "datum": "2027-01-13",
+        "ar": 2027,
+        "vecka": 2,
+        "veckodag": "onsdag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:30-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2027-01-14",
+        "ar": 2027,
+        "vecka": 2,
+        "veckodag": "torsdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "07:20-14:45",
+        "anteckningar": null
+    },
+    {
+        "datum": "2027-01-15",
+        "ar": 2027,
+        "vecka": 2,
+        "veckodag": "fredag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:30-16:15",
+        "anteckningar": null
+    },
+    {
+        "datum": "2027-01-16",
+        "ar": 2027,
+        "vecka": 2,
+        "veckodag": "lördag",
+        "hos": "Pappa",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2027-01-17",
+        "ar": 2027,
+        "vecka": 2,
+        "veckodag": "söndag",
+        "hos": "Pappa",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2027-01-18",
+        "ar": 2027,
+        "vecka": 3,
+        "veckodag": "måndag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:20-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2027-01-19",
+        "ar": 2027,
+        "vecka": 3,
+        "veckodag": "tisdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Ledig",
+        "anteckningar": null
+    },
+    {
+        "datum": "2027-01-20",
+        "ar": 2027,
+        "vecka": 3,
+        "veckodag": "onsdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "06:30-14:45",
+        "anteckningar": null
+    },
+    {
+        "datum": "2027-01-21",
+        "ar": 2027,
+        "vecka": 3,
+        "veckodag": "torsdag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:30-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2027-01-22",
+        "ar": 2027,
+        "vecka": 3,
+        "veckodag": "fredag",
+        "hos": "Mamma",
+        "hamtningsLamning": "07:20-14:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2027-01-23",
+        "ar": 2027,
+        "vecka": 3,
+        "veckodag": "lördag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2027-01-24",
+        "ar": 2027,
+        "vecka": 3,
+        "veckodag": "söndag",
+        "hos": "Mamma",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2027-01-25",
+        "ar": 2027,
+        "vecka": 4,
+        "veckodag": "måndag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:30-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2027-01-26",
+        "ar": 2027,
+        "vecka": 4,
+        "veckodag": "tisdag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:20-16:30",
+        "anteckningar": null
+    },
+    {
+        "datum": "2027-01-27",
+        "ar": 2027,
+        "vecka": 4,
+        "veckodag": "onsdag",
+        "hos": "Mamma",
+        "hamtningsLamning": "07:20-14:45",
+        "anteckningar": null
+    },
+    {
+        "datum": "2027-01-28",
+        "ar": 2027,
+        "vecka": 4,
+        "veckodag": "torsdag",
         "hos": "Mamma",
         "hamtningsLamning": "09:00-16:20",
+        "anteckningar": null
+    },
+    {
+        "datum": "2027-01-29",
+        "ar": 2027,
+        "vecka": 4,
+        "veckodag": "fredag",
+        "hos": "Pappa",
+        "hamtningsLamning": "07:30-16:15",
+        "anteckningar": null
+    },
+    {
+        "datum": "2027-01-30",
+        "ar": 2027,
+        "vecka": 4,
+        "veckodag": "lördag",
+        "hos": "Pappa",
+        "hamtningsLamning": "Helg",
+        "anteckningar": null
+    },
+    {
+        "datum": "2027-01-31",
+        "ar": 2027,
+        "vecka": 4,
+        "veckodag": "söndag",
+        "hos": "Pappa",
+        "hamtningsLamning": "Helg",
         "anteckningar": null
     }
 ]
