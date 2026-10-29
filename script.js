@@ -301,7 +301,7 @@ function renderMonth() {
   els.prevWeek.disabled = firstIso ? isoForDay(year, month, 1) <= firstIso : true;
   els.nextWeek.disabled = lastIso ? isoForDay(year, month, daysInMonth) >= lastIso : true;
 
-  const cells = [];
+  const cells = [createWeekNumberCell(new Date(year, month, 1))];
 
   for (let index = 0; index < firstWeekday; index += 1) {
     const blank = document.createElement("span");
@@ -312,6 +312,11 @@ function renderMonth() {
 
   let hasData = false;
   for (let day = 1; day <= daysInMonth; day += 1) {
+    // Ny rad börjar på måndag och inleds med veckonumret.
+    if (day > 1 && (firstWeekday + day - 1) % 7 === 0) {
+      cells.push(createWeekNumberCell(new Date(year, month, day)));
+    }
+
     const iso = isoForDay(year, month, day);
     const entry = entriesByDate.get(iso);
     if (entry) {
@@ -322,6 +327,15 @@ function renderMonth() {
 
   els.monthGrid.replaceChildren(...cells);
   setStatus(hasData ? "Månadsöversikt. Klicka på en dag för att redigera." : "Ingen kalenderdata för den här månaden.");
+}
+
+function createWeekNumberCell(dateObject) {
+  const { week } = getIsoWeek(dateObject);
+  const cell = document.createElement("span");
+  cell.className = "month-week-number";
+  cell.textContent = String(week);
+  cell.setAttribute("aria-label", `Vecka ${week}`);
+  return cell;
 }
 
 function createMonthCell(day, iso, entry, todayIso) {
