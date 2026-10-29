@@ -2821,9 +2821,9 @@
         "ar": 2027,
         "vecka": 1,
         "veckodag": "tisdag",
-        "hos": "Pappa → Mamma",
-        "hamtningsLamning": "Byte 14:00",
-        "anteckningar": "Trettonafton – pappa ledig, ingen förskola. Mamma jobbar 06:45–14:00, lämnar hos pappa på morgonen och hämtar efter jobbet"
+        "hos": "Mamma",
+        "hamtningsLamning": "06:30-14:30",
+        "anteckningar": "Trettonafton"
     },
     {
         "datum": "2027-01-06",
