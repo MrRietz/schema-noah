@@ -305,14 +305,12 @@ body {
 }
 
 /* Delad dag: diagonal delning, först den som har Noah på morgonen. */
-.month-cell--pappa-mamma,
-.day-card--pappa-mamma {
+.month-cell--pappa-mamma {
   border-color: rgba(30, 42, 33, 0.16);
   background: linear-gradient(135deg, rgba(216, 234, 252, 0.96) 50%, rgba(248, 215, 218, 0.96) 50%);
 }
 
-.month-cell--mamma-pappa,
-.day-card--mamma-pappa {
+.month-cell--mamma-pappa {
   border-color: rgba(30, 42, 33, 0.16);
   background: linear-gradient(135deg, rgba(248, 215, 218, 0.96) 50%, rgba(216, 234, 252, 0.96) 50%);
 }
@@ -390,6 +388,16 @@ body {
 .day-card--pappa {
   border-color: rgba(31, 94, 168, 0.14);
   background: linear-gradient(180deg, rgba(216, 234, 252, 0.96), rgba(255, 255, 255, 0.94));
+}
+
+.day-card--pappa-mamma {
+  border-color: rgba(30, 42, 33, 0.14);
+  background: linear-gradient(135deg, rgba(216, 234, 252, 0.96) 50%, rgba(248, 215, 218, 0.96) 50%);
+}
+
+.day-card--mamma-pappa {
+  border-color: rgba(30, 42, 33, 0.14);
+  background: linear-gradient(135deg, rgba(248, 215, 218, 0.96) 50%, rgba(216, 234, 252, 0.96) 50%);
 }
 
 .day-card--today {
